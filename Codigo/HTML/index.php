@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" type="text/css" href="">
     <title>ADPI</title>
+    <link rel="preload" href="/Codigo/CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="/Codigo/CSS/normalize.css">
+    <link rel="preload" href="index.css" as="style">
+    <link href="index.css" rel="stylesheet">
 </head>
 
 <body>
@@ -347,7 +350,7 @@
             <td>
                 <h2> Perfil </h2>
             </td>
-            <td> <img src="/Imagenes/img/intento de logo.png" class="imaing"> </td>
+            <td> <img src="/img/intento de logo.png" class="imaing"> </td>
 
         </tr>
 
@@ -380,14 +383,14 @@
                 <a href="/Codigo/HTML/helper.html" class="aeaa"> Terminos y Condiciones </a>
             </td>
             <td>
-                <a href="/Codigo/HTML/catalogo/grafica.html" class="aeaa"> Comprar </a>
+                <a href="pedidos-admin.php" class="aeaa"> Pedidos </a>
             </td>
         <tr>
             <td>
                 <a href="/Codigo/HTML/helper.html" class="aeaa"> Preguntas Frecuentes </a>
             </td>
             <td>
-                <a href="/Codigo/HTML/Favoritos.html" class="aeaa"> Lista de Deseos </a>
+                <a href="mantenimiento.php" class="aeaa"> Mantenimiento </a>
             </td>
 
 

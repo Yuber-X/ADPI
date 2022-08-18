@@ -8,10 +8,10 @@
   <title>ADPI</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
-  <link rel="preload" href="/Codigo/CSS/normalize.css" as="style">
-  <link rel="stylesheet" href="/Codigo/CSS/normalize.css">
-  <link rel="preload" href="/Codigo/CSS/mantenimiento.css" as="style">
-  <link href="/Codigo/CSS/mantenimiento.css" rel="stylesheet">
+  <link rel="preload" href="normalize.css" as="style">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preload" href="mantenimiento.css" as="style">
+  <link href="mantenimiento.css" rel="stylesheet">
 
 </head>
 
@@ -350,7 +350,7 @@
           <a href="/Codigo/HTML/helper.html" class="aeaa"> Contacto </a>
         </td>
         <td>
-          <a href="/Codigo/HTML/mantenimiento.html" class="aeaa"> Mantenimiento </a>
+          <a href="mantenimiento.php" class="aeaa"> Mantenimiento </a>
         </td>
 
       <tr>
@@ -373,7 +373,7 @@
           <a href="/Codigo/HTML/helper.html" class="aeaa"> Terminos y Condiciones </a>
         </td>
         <td>
-          <a href="/Codigo/HTML/pedidos-admin.html" class="aeaa"> Pedidos </a>
+          <a href="pedidos-admin.php" class="aeaa"> Pedidos </a>
         </td>
       <tr>
         <td>
