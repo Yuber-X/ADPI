@@ -21,12 +21,12 @@
     <a  class="logo">
         
         <div class="crop-img">
-        <a href="/Codigo/HTML/index.html"> <img src="/Imagenes/img/intento de logo.png" class="Loge" alt="logoxd"> </a>
+        <a href="/HTML/index.php"> <img src="./img/intento de logo.png" class="Loge" alt="logoxd"> </a>
         </div>
 
      <div class="crop-img">
-        <div class="crop-img2">
-        <button type="button" ><a href="/Codigo/HTML/Carrito.html"></a> <img src="/Imagenes/img/carrito.png"></button>
+        <div class="crop-img2"> 
+        <button type="button" ><a href="/Codigo/HTML/Carrito."></a> <img src="/img/carrito.png" ></button>
         </div>
      </div>
 
@@ -36,7 +36,7 @@
      <form class="form">
         <div class="container-4">
             <input type="search" id="search" placeholder="Search..." />
-            <button class="icon"><i class="fa fa-search"></i> <img src="/Imagenes/img/pngwing.com.png"> </button>
+            <button class="icon"><i class="fa fa-search"></i> <img src="./img/pngwing.com.png"> </button>
           </div>
     </form>
         </div>
@@ -64,14 +64,14 @@
             <li >
                 <a href="#">Componentes</a>
                     <ul class="menu_vertical">
-                        <li><a href="/Codigo/HTML/catalogo/disipador.html"><img src="/Imagenes/Lote/Menu/Boton 2.png"></a></li>
-                        <li><a href="/Codigo/HTML/catalogo/ram.html"><img src="/Imagenes/Lote/Menu/Boton 3.png"></a></li>
-                        <li><a href="/Codigo/HTML/catalogo/powersupply.html"><img src="/Imagenes/Lote/Menu/Boton 4.png"></a></li>
-                        <li><a href="/Codigo/HTML/catalogo/grafica.html"><img src="/Imagenes/Lote/Menu/Boton 5.png"></a></li>
-                        <li><a href="/Codigo/HTML/catalogo/herramientas.html"><img src="/Imagenes/Lote/Menu/Boton 6.png"></a></li>
-                        <li><a href="/Codigo/HTML/catalogo/discoduro.html"><img src="/Imagenes/Lote/Menu/Boton 7.png"></a></li>
-                        <li><a href="/Codigo/HTML/catalogo/motherboard.html"><img src="/Imagenes/Lote/Menu/Boton 8.png"></a></li>
-                        <li><a href="/Codigo/HTML/catalogo/procesadores.html"><img src="/Imagenes/Lote/Menu/Boton 9.png"></a></li>
+                        <li><a href="/Codigo/HTML/catalogo/disipador.html"><img src="./Lote/Menu/Boton 2.png"></a></li>
+                        <li><a href="/Codigo/HTML/catalogo/ram.html"><img src="./Lote/Menu/Boton 3.png"></a></li>
+                        <li><a href="/Codigo/HTML/catalogo/powersupply.html"><img src="./Lote/Menu/Boton 4.png"></a></li>
+                        <li><a href="/Codigo/HTML/catalogo/grafica.html"><img src="./Lote/Menu/Boton 5.png"></a></li>
+                        <li><a href="/Codigo/HTML/catalogo/herramientas.html"><img src="./Lote/Menu/Boton 6.png"></a></li>
+                        <li><a href="/Codigo/HTML/catalogo/discoduro.html"><img src="./Lote/Menu/Boton 7.png"></a></li>
+                        <li><a href="/Codigo/HTML/catalogo/motherboard.html"><img src="./Lote/Menu/Boton 8.png"></a></li>
+                        <li><a href="/Codigo/HTML/catalogo/procesadores.html"><img src="./Lote/Menu/Boton 9.png"></a></li>
                     </ul>
             </li>
             <li>
@@ -80,9 +80,9 @@
             <li>
                 <a href="#">Perifericos</a>
                     <ul class="menu_vertical">
-                        <li><a href="/Codigo/HTML/catalogo/entrada_p.html"> <img src="/Imagenes/Lote/Menu/Boton 1p.png"></a></li>
-                        <li><a href="/Codigo/HTML/catalogo/salida_p.html"> <img src="/Imagenes/Lote/Menu/Boton 2p.png"></a></li>
-                        <li><a href="/Codigo/HTML/catalogo/comunicacion_p.html"> <img src="/Imagenes/Lote/Menu/Boton 3p.png"></a></li>
+                        <li><a href="/Codigo/HTML/catalogo/entrada_p.html"> <img src="./Lote/Menu/Boton 1p.png"></a></li>
+                        <li><a href="/Codigo/HTML/catalogo/salida_p.html"> <img src="./Lote/Menu/Boton 2p.png"></a></li>
+                        <li><a href="/Codigo/HTML/catalogo/comunicacion_p.html"> <img src="./Lote/Menu/Boton 3p.png"></a></li>
                     </ul>                 
             </li>
         </ul>
@@ -93,7 +93,7 @@
 
     <!-- TITULO de formulario -->
     <section>
-         <img class="encabezado" src="/Imagenes/Lote/Carrito/Catalogo titulo carrito.png">
+         <img class="encabezado" src="./Lote/Carrito/Catalogo titulo carrito.png">
     </section>
  
     <!-- Creando el articulo para comprar-->
@@ -117,7 +117,7 @@
                                <table class="tabla1">
                                 <tr>
                                     <td>
-                                        <img src="/Imagenes/img/gtx1650ti.png" class="producto">
+                                        <img src="./img/gtx1650ti.png" class="producto">
                                     </td>
                                     <td>
                                         <p>Tarjeta de Video GIGABYTE GTX <br>
@@ -134,7 +134,7 @@
                                         <p><span>$8,490</span></p>
                                     </td>
                                     <td>
-                                        <button href="#"><img src="/Imagenes/img/basura-2.png" alt="basura"></button>
+                                        <button href="#"><img src="./img/basura-2.png" alt="basura"></button>
                                     </td>
                                 </tr>
                                </table>
@@ -164,8 +164,8 @@
                     <!--BOTONES DE CARRITO-->
 
                      <tr>
-                         <td><button><img src="/Imagenes/Lote/Carrito/Vaciar Carrito.png"></button></td>
-                         <td><button><img src="/Imagenes/Lote/Carrito/Realizar Pedido.png"></button></h2></td>    
+                         <td><button><img src="./Lote/Carrito/Vaciar Carrito.png"></button></td>
+                         <td><button><img src="./Lote/Carrito/Realizar Pedido.png"></button></h2></td>    
                     </tr>
                     </table>
                     
@@ -182,74 +182,74 @@
         <div class="conteneddor">
 
             <div class="image">
-                <img src="/Imagenes/img/3060-Ti-1-2-247x247.jpg">
+                <img src="./img/3060-Ti-1-2-247x247.jpg">
                 <div class="overlay">
                 <a href="/Codigo/HTML/compra.html">      
                     <p> Tarjeta Grafica Gigabyte Nvidia RTX 3060 Ti 8GB</p>
                     <h3><span>$</span><strong>8,505</strong>DOP</h3>
                 </a>
-                    <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>
+                    <button><input type="image" src="./img/al carrito.png"></a></button>
                 </div>
             </div>
         
 
             <div class="image">
-                <img src="/Imagenes/img/910-006096-150x150.jpg">
+                <img src="./img/910-006096-150x150.jpg">
                 <div class="overlay">
                 <a href="/Codigo/HTML/compra.html"> 
                     <p> Mouse Logitech G502 Hero</p>
                     <h3><span>$</span><strong>8,505</strong>DOP</h3>
                 </a>
-                    <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>
+                    <button><input type="image" src="./img/al carrito.png"></a></button>
                 </div>
             </div>
         
 
             <div class="image">
-               <img src="/Imagenes/img/3070-Ti-2-247x247.jpg">
+               <img src="./img/3070-Ti-2-247x247.jpg">
                <div class="overlay">
             <a href="/Codigo/HTML/compra.html"> 
                 <p> Tarjeta Grafica MSI Nvidia GeForce RTX 3060 Ti 8GB</p>
                 <h3><span>$</span><strong>8,505</strong>DOP</h3>
             </a>
-                <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>
+                <button><input type="image" src="./img/al carrito.png"></a></button>
             </div>
             </div>
         
 
             <div class="image">
-                <img src="/Imagenes/img/dd_sg_st1000dm010_1tb-a-150x150.png">
+                <img src="./img/dd_sg_st1000dm010_1tb-a-150x150.png">
                 <div class="overlay">
                 <a href="/Codigo/HTML/compra.html"> 
                     <p> Disco Duro 3.5 Seagate 1TB 7200RPM Sata 3 64MB</p>
                     <h3><span>$</span><strong>8,505</strong>DOP</h3>
                 </a>
-                    <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>
+                    <button><input type="image" src="./img/al carrito.png"></a></button>
                 </div>
             </div>
 
 
 
             <div class="image">
-                <img src="/Imagenes/img/KF432S20IB-16-150x150.jpg">
+                <img src="./img/KF432S20IB-16-150x150.jpg">
                 <div class="overlay">
                 <a href="/Codigo/HTML/compra.html"> 
                     <p> Memora Ram DDR4 Fury Impact 3200MHz 16GB </p>
                     <h3><span>$</span><strong>8,505</strong>DOP</h3>
                 </a>
-                    <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>
+                    <button><input type="image" src="./img/al carrito.png"></a></button>
                 </div>
             </div>
        
             
             <div class="image">
-                <img src="/Imagenes/img/i7-11700F-150x150.jpg">
+                <img src="./img/i7-11700F-150x150.jpg">
                 <div class="overlay">
                 <a href="/Codigo/HTML/compra.html"> 
                     <p> Procesador Intel Core i9 11900k 3.5GHz Octa Core</p>
                     <h3><span>$</span><strong>8,505</strong>DOP</h3>
                 </a>
-                    <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>    
+                    <button><input type="image" src="./img/al carrito.png"></a></button>    
                 </div>
             </div>
         </div>
@@ -267,7 +267,7 @@
           <tr>
             <td> <h2> Soporte </h2> </td>
             <td> <h2>  Perfil </h2>  </td>
-            <td> <img src="/Imagenes/img/intento de logo.png" class="imaing"> </td>
+            <td> <img src="./img/intento de logo.png" class="imaing"> </td>
            
           </tr>
 
@@ -315,17 +315,18 @@
         
         <td colspan="1" > 
             
-            <img src="/Imagenes/Lote/Carrito/pngegg (-7.png" class="joda">   
+            <img src="./Lote/Carrito/pngegg (-7.png" class="joda">   
            
 
            
             
-            <img src="/Imagenes/Lote/Carrito/pngegg (-8.png" class="joda">      
+            <img src="./Lote/Carrito/pngegg (-8.png" class="joda">      
            
 
          
            
-            <img src="/Imagenes/Lote/Carrito/pngegg (-9.png" class="joda">      
+            <img src="./
+/Lote/Carrito/pngegg (-9.png" class="joda">      
            </td>
 
         </tr>
@@ -334,11 +335,11 @@
 </footer>
 <footer class="Mfooter">
     <div>
-        <td> <img src="/Imagenes/img/letra ADPI.png" HSPACE="27px"  class="imaing3"> </td>
-        <td> <img src="/Imagenes/img/fon123.png" HSPACE="308px"class="imaing2"> </td>
-        <td> <img src="/Imagenes/img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
-        <td> <img src="/Imagenes/img/paypal.png"  class="imaing5"> </td>
-        <td> <img src="/Imagenes/img/Former_Visa.png" class="imaing6"> </td>
+        <td> <img src="./img/letra ADPI.png" HSPACE="27px"  class="imaing3"> </td>
+        <td> <img src="./img/fon123.png" HSPACE="308px"class="imaing2"> </td>
+        <td> <img src="./img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
+        <td> <img src="./img/paypal.png"  class="imaing5"> </td>
+        <td> <img src="./img/Former_Visa.png" class="imaing6"> </td>
     </div>
 </footer>
 </html>
