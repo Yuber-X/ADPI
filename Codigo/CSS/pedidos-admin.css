@@ -416,10 +416,37 @@
     }
 
 
+/*--------------DATA-GRID PRODUCTO----------------*/
+
+.table button{
+    border: none;
+    background-color: transparent;
+} 
+.table img{
+    width: 2rem;
+}
+
+.table{
+    text-align: center;
+    box-shadow: 4px 4px 8px var(---principal);
+    border-top: none;
+}
+
+.container_tabla_prod{
+    padding: 33rem 3rem 0rem 3rem;
+    margin-top: -29.7rem;
+}
+.table th{
+    font-family: agency_bold;
+    font-size: 1.5rem;
+}
+
+
+
     /*---------PEDIDOS--------*/
 
     /* ENCABEZADO DE PRODUCTO */
-
+/* tabla YUBER
 .tabla0{
     margin-top: 2rem;
 }
@@ -443,21 +470,21 @@
     margin-bottom: 0.5rem;
 }
 
-
+*/
 /*--------PRODUCTO--------*/
 
-
-.producto{ /*Imagen de producto*/
+/* tabla YUBER
+.producto{ Imagen de producto
     width: 10rem;
     border-style: groove;
     border-color: var(---principal);
     border-width: 2px;
 }
-.tabla1 button img {/*imagen del boton*/
+.tabla1 button img { imagen del boton
     width: 3rem;
     height: 3rem;
 }
-.tabla1 button{/*boton de borrar*/
+.tabla1 button{  boton de borrar
   background-color: transparent;
   border: 0px;
 }
@@ -467,7 +494,7 @@
     border-left: none;
     border-right: none;
 }
-.tabla1 td:nth-child(0n+2){/*manipulando la celdas con width */
+.tabla1 td:nth-child(0n+2){  manipulando la celdas con width
     width: 15rem;
 }
 .tabla1 td:nth-child(0n+3){
@@ -515,7 +542,7 @@ margin-right: -2.5rem;
 
 
     
-
+*/
         
 /* ---------------FOOTER---------------- */
 
