@@ -316,7 +316,7 @@
                     <a href="/Codigo/HTML/helper.html" class="aeaa"> Contacto </a>
                 </td>
                 <td>
-                    <a href="/Codigo/HTML/cuentas.html" class="aeaa"> Cuenta </a>
+                    <a href="mantenimiento.php" class="aeaa"> Mantenimiento </a>
                 </td>
 
             <tr>
@@ -324,7 +324,7 @@
                     <a href="/Codigo/HTML/helper.html" class="aeaa"> Nosotros </a>
                 </td>
                 <td>
-                    <a href="/Codigo/HTML/Carrito.html" class="aeaa"> Carrito </a>
+                    <a href="pedidos-admin.php" class="aeaa"> Pedidos </a>
                 </td>
 
                 <td class="posi" rowspan="2">
