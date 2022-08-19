@@ -19,23 +19,23 @@
     
     @font-face {
         font-family: agency;
-        src: url(/Codigo/CSS/Fuentes/agency_fb.ttf);
+        src: url(./Fuentes/agency_fb.ttf);
     }
     @font-face {
         font-family: time;
-        src: url(/Codigo/CSS/Fuentes/times.ttf);
+        src: url(./Fuentes/times.ttf);
     }
     @font-face {
         font-family: time_bold;
-        src: url(/Codigo/CSS/Fuentes/timesbold.ttf);
+        src: url(./Fuentes/timesbold.ttf);
     }
     @font-face {
         font-family: giorgia;
-        src: url(/Codigo/CSS/Fuentes/georgia.ttf);
+        src: url(./Fuentes/georgia.ttf);
     }
     @font-face {
         font-family: agency_bold;
-        src: url(/Codigo/CSS/Fuentes/agency_fb_bold.ttf);
+        src: url(./Fuentes/agency_fb_bold.ttf);
     }
     
     
@@ -43,7 +43,7 @@
     
     html{
         font-family: agency;
-        background-image: url(/Imagenes/img/Fondo\ PNG\ 1.png);
+        background-image: url(./img/Fondo\ PNG\ 1.png);
         background-repeat: repeat;
         background-size: 85rem;
     }
@@ -68,7 +68,7 @@ header {
     background-color: black;
     flex-direction: column;
     padding: 10px;
-    background: url(/Imagenes/img/fondo-conexion-red-degradado_23-2148865392.jpg);
+    background: url(./img/fondo-conexion-red-degradado_23-2148865392.jpg);
     background: cover;
     background-position: center center;
     background-size: cover;
@@ -422,7 +422,7 @@ header .ButtonB{
 }
 
 main {
-        background: url(/Imagenes/img/Fondo\ PNG\ 1.png);
+        background: url(./img/Fondo\ PNG\ 1.png);
         
 }
 
@@ -456,7 +456,7 @@ h3 {
     margin: 0px;
     display: flex;
     justify-content: center;
-    background: url(/Imagenes/img/Fondo\ PNG\ 1.png);
+    background: url(./img/Fondo\ PNG\ 1.png);
 }
 .caja {
     display: table-cell;
@@ -465,7 +465,7 @@ h3 {
 }
 
 .caja:nth-child(1) h3{
-    background: url(/Imagenes/img/Fondo\ PNG\ 1.png);
+    background: url(./img/Fondo\ PNG\ 1.png);
     text-align: center;
     color: rgb(95, 7, 7);
     margin-bottom: 30px;
@@ -473,14 +473,14 @@ h3 {
 }
 
 .caja:nth-child(2) h3{
-    background: url(/Imagenes/img/Fondo\ PNG\ 1.png);
+    background: url(./img/Fondo\ PNG\ 1.png);
     text-align: center;
     color: rgb(95, 7, 7);
     margin-bottom: 30px;
 }
 
 .caja:nth-child(3) h3{
-    background: url(/Imagenes/img/Fondo\ PNG\ 1.png);
+    background: url(./img/Fondo\ PNG\ 1.png);
     text-align: center;
     color: rgb(95, 7, 7);
     margin-bottom: 30px;
@@ -488,7 +488,7 @@ h3 {
 }
 
 .caja:nth-child(4) h3{
-    background: url(/Imagenes/img/Fondo\ PNG\ 1.png);
+    background: url(./img/Fondo\ PNG\ 1.png);
     text-align: center;
     color: rgb(95, 7, 7);
     margin-bottom: 30px;
@@ -781,7 +781,7 @@ display: table-row;
 
 footer{
 
-    background: url(/Imagenes/img/ffooter.png);
+    background: url(./img/ffooter.png);
     background: cover;
     background-position: center center;
     background-size: cover;
@@ -850,6 +850,6 @@ tr .posi{
 /* -------------Min FOOTER---------------- */
 
 .Mfooter{
-    background: url(/Imagenes/img/fon123.PNG);
+    background: url(./img/fon123.PNG);
 
 }

@@ -10,8 +10,8 @@
   integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
   <link rel="preload" href="normalize.css" as="style">
   <link rel="stylesheet" href="normalize.css">
-  <link rel="preload" href="mantenimiento.css" as="style">
-  <link href="mantenimiento.css" rel="stylesheet">
+  <link rel="preload" href="categoria.css" as="style">
+  <link href="categoria.css" rel="stylesheet">
 
 </head>
 
@@ -25,7 +25,7 @@
     <a class="logo">
 
       <div class="crop-img">
-        <a href="/Codigo/HTML/index.html"> <img src="./img/intento de logo.png" class="Loge" alt="logoxd"> </a>
+        <a href="index.php"> <img src="./img/intento de logo.png" class="Loge" alt="logoxd"> </a>
       </div>
 
       <div class="crop-img">
@@ -93,7 +93,7 @@
   <!-- TITULO de formulario -->
 
   <section>
-    <img class="encabezado" src="./img/Mantenimiento.png">
+    <img class="encabezado" src="./img/Categoria.png">
   </section>
 
   <main>
@@ -102,39 +102,17 @@
         <form>
             <div class="container_form">
                 <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1">Producto</span>
-                    <input type="text" class="form-control" placeholder="Nombre del Producto" aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1">Categoria</span>
+                    <input type="text" class="form-control" placeholder="Nombre de la Categoria" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 
                 
                 <div class="input-group mb-3">
-                  <span class="input-group-text" id="basic-addon2">Suplidor</span>
-                    <input type="text" class="form-control" placeholder="Nombre de Tienda" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    
+                  <span class="input-group-text" id="basic-addon2">Codigo</span>
+                    <input type="text" class="form-control" placeholder="Codigo" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 </div>
 
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon3">Imagen</span>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="URL">
-                </div>
 
-                <div class="input-group mb-3">
-                    <span class="input-group-text">$</span>
-                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                    <span class="input-group-text">.00</span>
-                </div>
-                
-                <div class="input-group mb-3">
-                  <span class="input-group-text">Cantidad</span>
-                    <input type="text" class="form-control" aria-label="Username">
-                    <span class="input-group-text">Categoria</span>
-                    <input type="text" class="form-control" aria-label="Server">
-                </div>
-                
-                <div class="input-group">
-                    <span class="input-group-text">Descripción <br> Producto</span>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
-                </div>
                 <div class="col-12">
                     <button type="submit" class="btn btn-primary">Crear</button>
                 </div>
@@ -146,115 +124,6 @@
     </section>
 
     <section>
-        <!--  DATA-GRID PRODUCTO -->
-        <div class="container_tabla_prod">
-            <table class="table table-hover">
-                <thead class="table-dark">
-                    <tr>
-                        <th>ID</th>
-                        <th>Nombre</th>
-                        <th>Categoria</th>
-                        <th>Cantidad</th>
-                        <th>Precio</th>
-                        <th>Eliminar</th>
-                        <th>Modificar</th>
-                    </tr>
-                </thead>
-                <tr>
-                    <td><strong>1</strong></td>
-                    <td>Targeta Grafica RX 580 8GB Red Devil</td>
-                    <td>Targeta Grafica</td>
-                    <td>5</td>
-                    <td>11,580</td>
-                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
-                    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td>
-                </tr>
-                <tr>
-                    <td><strong>2</strong></td>
-                    <td>Pack 2 Ram 8GB DRR4 Fatal Fury</td>
-                    <td>Ram</td>
-                    <td>3</td>
-                    <td>2,580</td>
-                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
-                    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td>
-                </tr>
-                <tr>
-                    <td><strong>3</strong></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
-                    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td>
-                </tr>
-                <tr>
-                    <td><strong>4</strong></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
-                    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td>
-                </tr>
-                <tr>
-                    <td><strong>5</strong></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
-                    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td>
-                </tr>
-                <tr>
-                    <td><strong>6</strong></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
-                    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td>
-                </tr>
-                <tr>
-                    <td><strong>7</strong></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
-                    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td>
-                </tr>
-        <!--        <tr>
-                    <td><strong>8</strong></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
-                    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td>
-                </tr>
-                <tr>
-                    <td><strong>9</strong></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
-                    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td>
-                </tr>
-                <tr>
-                    <td><strong>10</strong></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
-                    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td>
-                </tr> -->
-            </table>    
-        </div>
-    </section>
-
-    <section>
         <!--  DATA-GRID CATEGORIA  -->
         <div class="container_tabla_cat">
             <table class="table table-success table-striped">
@@ -263,63 +132,75 @@
                         <th><strong>ID</strong></th>
                         <th><strong>Codigo</strong></th>
                         <th><strong>Categoria</strong></th>
+                        <th><strong>Eliminar</strong></th>
                     </tr>
                 </thead>
                 <tr>
                     <td><strong>1</strong></td>
                     <td>10</td>
                     <td>Case</td>
+                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr>
                 <tr>
                     <td><strong>2</strong></td>
                     <td>20</td>
                     <td>Procesadores</td>
+                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr>
                 <tr>
                     <td><strong>3</strong></td>
                     <td>30</td>
                     <td>Disipadores</td>
+                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr>
-        <!--        <tr>
+               <tr>
                     <td><strong>4</strong></td>
                     <td>40</td>
                     <td>Ram</td>
+                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr>
                 <tr>
                     <td><strong>5</strong></td>
                     <td>50</td>
                     <td>Power Supply</td>
+                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr>
                 <tr>
                     <td><strong>6</strong></td>
                     <td>60</td>
                     <td>Targeta Grafica</td>
+                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr>
                 <tr>
                     <td><strong>7</strong></td>
                     <td>70</td>
                     <td>Herramientas</td>
+                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr>
                 <tr>
                     <td><strong>8</strong></td>
                     <td>80</td>
                     <td>Disco Duros</td>
+                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr>
                 <tr>
                     <td><strong>9</strong></td>
                     <td>90</td>
                     <td>MotherBoard</td>
+                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr>
                 <tr>
                     <td><strong>10</strong></td>
                     <td>100</td>
                     <td>Monitores</td>
+                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr>
                 <tr>
                     <td><strong>11</strong></td>
                     <td>110</td>
                     <td>Perifericos</td>
-                </tr> -->
+                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
+                </tr> 
             </table>
         </div>
     </section>
@@ -377,10 +258,9 @@
         </td>
       <tr>
         <td>
-          <a href="helper.php" class="aeaa"> Preguntas Frecuentes </a>
+          <a href="/Codigo/HTML/helper.html" class="aeaa"> Preguntas Frecuentes </a>
         </td>
         <td>
-        <a href="Categoria.php" class="aeaa"> Categoria </a>
         </td>
 
 

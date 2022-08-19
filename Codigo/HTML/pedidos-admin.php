@@ -23,14 +23,14 @@
         <a class="logo">
 
             <div class="crop-img">
-                <a href="/Codigo/HTML/index.html"> <img src="/Imagenes/img/intento de logo.png" class="Loge"
+                <a href="/Codigo/HTML/index.html"> <img src="./img/intento de logo.png" class="Loge"
                         alt="logoxd"> </a>
             </div>
 
 
                 <div class="crop-img2">
                     <button type="button"><a href="/Codigo/HTML/Carrito.html"></a> <img
-                            src="/Imagenes/img/carrito.png"></button>
+                            src="./img/carrito.png"></button>
                 </div>
             </div>
 
@@ -40,7 +40,7 @@
                 <form class="form">
                     <div class="container-4">
                         <input type="search" id="search" placeholder="Search..." />
-                        <button class="icon"><i class="fa fa-search"></i> <img src="/Imagenes/img/pngwing.com.png">
+                        <button class="icon"><i class="fa fa-search"></i> <img src="./img/pngwing.com.png">
                         </button>
                     </div>
                 </form>
@@ -70,21 +70,21 @@
                         <a href="#">Componentes</a>
                         <ul class="menu_vertical">
                             <li><a href="/Codigo/HTML/catalogo/disipador.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 2.png"></a></li>
-                            <li><a href="/Codigo/HTML/catalogo/ram.html"><img src="/Imagenes/Lote/Menu/Boton 3.png"></a>
+                                        src="./Lote/Menu/Boton 2.png"></a></li>
+                            <li><a href="/Codigo/HTML/catalogo/ram.html"><img src="./Lote/Menu/Boton 3.png"></a>
                             </li>
                             <li><a href="/Codigo/HTML/catalogo/powersupply.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 4.png"></a></li>
+                                        src="./Lote/Menu/Boton 4.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/grafica.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 5.png"></a></li>
+                                        src="./Lote/Menu/Boton 5.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/herramientas.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 6.png"></a></li>
+                                        src="./Lote/Menu/Boton 6.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/discoduro.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 7.png"></a></li>
+                                        src="./Lote/Menu/Boton 7.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/motherboard.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 8.png"></a></li>
+                                        src="./Lote/Menu/Boton 8.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/procesadores.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 9.png"></a></li>
+                                        src="./Lote/Menu/Boton 9.png"></a></li>
                         </ul>
                     </li>
                     <li>
@@ -103,7 +103,7 @@
     <!-- TITULO de formulario -->
 
     <section>
-        <img class="encabezado" src="/Imagenes/Lote/Pedidos/Administrador.png">
+        <img class="encabezado" src="./Lote/Pedidos/Administrador.png">
     </section>
     <!-- -----PEDIDOS----- -->
 
@@ -137,8 +137,8 @@
             <td>Targeta Grafica</td>
             <td>5</td>
             <td>11,580</td>
-            <td><button href="#"><img src="/Imagenes/img/basura-2.png" alt="basura"></button></td>
-    <!--    <td><button href="#"><img src="/Imagenes/img/modificar.png" alt="Modificar"></button></td> -->
+            <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
+    <!--    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td> -->
         </tr>
         <tr>
             <td><strong>2</strong></td>
@@ -149,8 +149,8 @@
             <td>Ram</td>
             <td>3</td>
             <td>2,580</td>
-            <td><button href="#"><img src="/Imagenes/img/basura-2.png" alt="basura"></button></td>
-    <!--    <td><button href="#"><img src="/Imagenes/img/modificar.png" alt="Modificar"></button></td> -->
+            <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
+    <!--    <td><button href="#"><img src="./img/modificar.png" alt="Modificar"></button></td> -->
         </tr>
         <tr>
             <td><strong>4</strong></td>
@@ -161,7 +161,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><button href="#"><img src="/Imagenes/img/basura-2.png" alt="basura"></button></td>
+            <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
 
         </tr>
         <tr>
@@ -173,7 +173,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><button href="#"><img src="/Imagenes/img/basura-2.png" alt="basura"></button></td>
+            <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
 
         </tr>
         <tr>
@@ -185,7 +185,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><button href="#"><img src="/Imagenes/img/basura-2.png" alt="basura"></button></td>
+            <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
 
         </tr>
         <tr>
@@ -197,7 +197,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><button href="#"><img src="/Imagenes/img/basura-2.png" alt="basura"></button></td>
+            <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
 
         </tr>
         <tr>
@@ -209,7 +209,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><button href="#"><img src="/Imagenes/img/basura-2.png" alt="basura"></button></td>
+            <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
 
         </tr>
         <tr>
@@ -221,7 +221,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><button href="#"><img src="/Imagenes/img/basura-2.png" alt="basura"></button></td>
+            <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
 
         </tr>
         <tr>
@@ -233,7 +233,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><button href="#"><img src="/Imagenes/img/basura-2.png" alt="basura"></button></td>
+            <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
 
         </tr>
     
@@ -284,7 +284,7 @@
                         <p><span><strong>EST-44</strong></span></p>
                     </td>
                     <td>
-                        <button href="#"><img src="/Imagenes/img/basura-2.png" alt="basura"></button>
+                        <button href="#"><img src="./img/basura-2.png" alt="basura"></button>
                     </td>
                 </tr>
             </table> 
@@ -307,7 +307,7 @@
                 <td>
                     <h2> Perfil </h2>
                 </td>
-                <td> <img src="/Imagenes/img/intento de logo.png" class="imaing"> </td>
+                <td> <img src="./img/intento de logo.png" class="imaing"> </td>
 
             </tr>
 
@@ -355,17 +355,17 @@
 
                 <td colspan="1">
 
-                    <img src="/Imagenes/Lote/Carrito/pngegg (-7.png" class="joda">
+                    <img src="./Lote/Carrito/pngegg (-7.png" class="joda">
 
 
 
 
-                    <img src="/Imagenes/Lote/Carrito/pngegg (-8.png" class="joda">
+                    <img src="./Lote/Carrito/pngegg (-8.png" class="joda">
 
 
 
 
-                    <img src="/Imagenes/Lote/Carrito/pngegg (-9.png" class="joda">
+                    <img src="./Lote/Carrito/pngegg (-9.png" class="joda">
                 </td>
 
             </tr>
@@ -374,11 +374,11 @@
     </footer>
     <footer class="Mfooter">
         <div>
-            <td> <img src="/Imagenes/img/letra ADPI.png" HSPACE="27px" class="imaing3"> </td>
-            <td> <img src="/Imagenes/img/fon123.png" HSPACE="308px" class="imaing2"> </td>
-            <td> <img src="/Imagenes/img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
-            <td> <img src="/Imagenes/img/paypal.png" class="imaing5"> </td>
-            <td> <img src="/Imagenes/img/Former_Visa.png" class="imaing6"> </td>
+            <td> <img src="./img/letra ADPI.png" HSPACE="27px" class="imaing3"> </td>
+            <td> <img src="./img/fon123.png" HSPACE="308px" class="imaing2"> </td>
+            <td> <img src="./img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
+            <td> <img src="./img/paypal.png" class="imaing5"> </td>
+            <td> <img src="./img/Former_Visa.png" class="imaing6"> </td>
         </div>
     </footer>
 </body>

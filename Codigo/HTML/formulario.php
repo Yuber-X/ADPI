@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ADPI</title>
-  <link rel="preload" href="/Codigo/CSS/normalize.css" as="style">
-  <link rel="stylesheet" href="/Codigo/CSS/normalize.css">
-  <link rel="preload" href="/Codigo/CSS/formulario.css" as="style">
-  <link href="/Codigo/CSS/formulario.css" rel="stylesheet">
+  <link rel="preload" href="normalize.css" as="style">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preload" href="formulario.css" as="style">
+  <link href="formulario.css" rel="stylesheet">
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
 </head>
@@ -24,12 +24,12 @@
     <a class="logo">
 
       <div class="crop-img">
-        <a href="/Codigo/HTML/index.html"> <img src="/Imagenes/img/intento de logo.png" class="Loge" alt="logoxd"> </a>
+        <a href="/Codigo/HTML/index.html"> <img src="./img/intento de logo.png" class="Loge" alt="logoxd"> </a>
       </div>
 
       <div class="crop-img">
         <div class="crop-img2">
-          <button type="button"><a href="/Codigo/HTML/Carrito.html"></a> <img src="/Imagenes/img/carrito.png"></button>
+          <button type="button"><a href="/Codigo/HTML/Carrito.html"></a> <img src="./img/carrito.png"></button>
         </div>
       </div>
 
@@ -39,7 +39,7 @@
         <form class="form">
           <div class="container-4">
             <input type="search" id="search" placeholder="Search..." />
-            <button class="icon"><i class="fa fa-search"></i> <img src="/Imagenes/img/pngwing.com.png"> </button>
+            <button class="icon"><i class="fa fa-search"></i> <img src="./img/pngwing.com.png"> </button>
           </div>
         </form>
       </div>
@@ -67,14 +67,14 @@
           <li>
             <a href="#">Componentes</a>
             <ul class="menu_vertical">
-              <li><a href="/Codigo/HTML/catalogo/disipador.html"><img src="/Imagenes/Lote/Menu/Boton 2.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/ram.html"><img src="/Imagenes/Lote/Menu/Boton 3.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/powersupply.html"><img src="/Imagenes/Lote/Menu/Boton 4.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/grafica.html"><img src="/Imagenes/Lote/Menu/Boton 5.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/herramientas.html"><img src="/Imagenes/Lote/Menu/Boton 6.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/discoduro.html"><img src="/Imagenes/Lote/Menu/Boton 7.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/motherboard.html"><img src="/Imagenes/Lote/Menu/Boton 8.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/procesadores.html"><img src="/Imagenes/Lote/Menu/Boton 9.png"></a></li>
+              <li><a href="/Codigo/HTML/catalogo/disipador.html"><img src="./Lote/Menu/Boton 2.png"></a></li>
+              <li><a href="/Codigo/HTML/catalogo/ram.html"><img src="./Lote/Menu/Boton 3.png"></a></li>
+              <li><a href="/Codigo/HTML/catalogo/powersupply.html"><img src="./Lote/Menu/Boton 4.png"></a></li>
+              <li><a href="/Codigo/HTML/catalogo/grafica.html"><img src="./Lote/Menu/Boton 5.png"></a></li>
+              <li><a href="/Codigo/HTML/catalogo/herramientas.html"><img src="./Lote/Menu/Boton 6.png"></a></li>
+              <li><a href="/Codigo/HTML/catalogo/discoduro.html"><img src="./Lote/Menu/Boton 7.png"></a></li>
+              <li><a href="/Codigo/HTML/catalogo/motherboard.html"><img src="./Lote/Menu/Boton 8.png"></a></li>
+              <li><a href="/Codigo/HTML/catalogo/procesadores.html"><img src="./Lote/Menu/Boton 9.png"></a></li>
             </ul>
           </li>
           <li>
@@ -83,9 +83,9 @@
           <li>
             <a href="#">Perifericos</a>
             <ul class="menu_vertical">
-              <li><a href="/Codigo/HTML/catalogo/entrada_p.html"> <img src="/Imagenes/Lote/Menu/Boton 1p.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/salida_p.html"> <img src="/Imagenes/Lote/Menu/Boton 2p.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/comunicacion_p.html"> <img src="/Imagenes/Lote/Menu/Boton 3p.png"></a>
+              <li><a href="/Codigo/HTML/catalogo/entrada_p.html"> <img src="./Lote/Menu/Boton 1p.png"></a></li>
+              <li><a href="/Codigo/HTML/catalogo/salida_p.html"> <img src="./Lote/Menu/Boton 2p.png"></a></li>
+              <li><a href="/Codigo/HTML/catalogo/comunicacion_p.html"> <img src="./Lote/Menu/Boton 3p.png"></a>
               </li>
             </ul>
           </li>
@@ -98,7 +98,7 @@
   <!-- TITULO de formulario -->
 
   <section>
-    <img class="encabezado" src="/Imagenes/img/Formulario.png">
+    <img class="encabezado" src="./img/Formulario.png">
   </section>
 
   <!--  FORMULARIO  -->
@@ -154,7 +154,7 @@
         <td>
           <h2> Perfil </h2>
         </td>
-        <td> <img src="/Imagenes/img/intento de logo.png" class="imaing"> </td>
+        <td> <img src="./img/intento de logo.png" class="imaing"> </td>
 
       </tr>
 
@@ -202,17 +202,17 @@
 
         <td colspan="1">
 
-          <img src="/Imagenes/Lote/Carrito/pngegg (-7.png" class="joda">
+          <img src="./Lote/Carrito/pngegg (-7.png" class="joda">
 
 
 
 
-          <img src="/Imagenes/Lote/Carrito/pngegg (-8.png" class="joda">
+          <img src="./Lote/Carrito/pngegg (-8.png" class="joda">
 
 
 
 
-          <img src="/Imagenes/Lote/Carrito/pngegg (-9.png" class="joda">
+          <img src="./Lote/Carrito/pngegg (-9.png" class="joda">
         </td>
 
       </tr>
@@ -221,11 +221,11 @@
   </footer>
   <footer class="Mfooter">
     <div>
-      <td> <img src="/Imagenes/img/letra ADPI.png" HSPACE="27px" class="imaing3"> </td>
-      <td> <img src="/Imagenes/img/fon123.png" HSPACE="308px" class="imaing2"> </td>
-      <td> <img src="/Imagenes/img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
-      <td> <img src="/Imagenes/img/paypal.png" class="imaing5"> </td>
-      <td> <img src="/Imagenes/img/Former_Visa.png" class="imaing6"> </td>
+      <td> <img src="./img/letra ADPI.png" HSPACE="27px" class="imaing3"> </td>
+      <td> <img src="./img/fon123.png" HSPACE="308px" class="imaing2"> </td>
+      <td> <img src="./img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
+      <td> <img src="./img/paypal.png" class="imaing5"> </td>
+      <td> <img src="./img/Former_Visa.png" class="imaing6"> </td>
     </div>
   </footer>
 

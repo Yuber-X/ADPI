@@ -19,14 +19,14 @@
         <a class="logo">
 
             <div class="crop-img">
-                <a href="/Codigo/HTML/index.html"> <img src="/Imagenes/img/intento de logo.png" class="Loge"
+                <a href="/Codigo/HTML/index.html"> <img src="./img/intento de logo.png" class="Loge"
                         alt="logoxd"> </a>
             </div>
 
             <div class="crop-img">
                 <div class="crop-img2">
                     <button type="button"><a href="/Codigo/HTML/Carrito.html"></a> <img
-                            src="/Imagenes/img/carrito.png"></button>
+                            src="./img/carrito.png"></button>
                 </div>
             </div>
 
@@ -36,7 +36,7 @@
                 <form class="form">
                     <div class="container-4">
                         <input type="search" id="search" placeholder="Search..." />
-                        <button class="icon"><i class="fa fa-search"></i> <img src="/Imagenes/img/pngwing.com.png">
+                        <button class="icon"><i class="fa fa-search"></i> <img src="./img/pngwing.com.png">
                         </button>
                     </div>
                 </form>
@@ -61,10 +61,10 @@
         <div class="slider">
             <ul>
 
-                <li> <img src="/Imagenes/img/LOGITECH-BANNER-WEB-G305.jpg"> </li>
-                <li> <img src="/Imagenes/img/Banner_G5_1900x600_B-14.jpg"> </li>
-                <li> <img src="/Imagenes/img/Banner_XtremetecPC.jpg"> </li>
-                <li> <img src="/Imagenes/img/imagen 4.png"> </li>
+                <li> <img src="./img/LOGITECH-BANNER-WEB-G305.jpg"> </li>
+                <li> <img src="./img/Banner_G5_1900x600_B-14.jpg"> </li>
+                <li> <img src="./img/Banner_XtremetecPC.jpg"> </li>
+                <li> <img src="./img/imagen 4.png"> </li>
 
             </ul>
 
@@ -77,7 +77,7 @@
 
                 <h3> Case </h3>
 
-                <img src="/Imagenes/img/Chasis-1-800x800.jpg">
+                <img src="./img/Chasis-1-800x800.jpg">
 
             </div>
 
@@ -86,7 +86,7 @@
                     Componentes
                 </h3>
 
-                <img src="/Imagenes/img/Componentes-1-800x800.jpg">
+                <img src="./img/Componentes-1-800x800.jpg">
 
             </div>
 
@@ -94,7 +94,7 @@
 
                 <h3> Monitores </h3>
 
-                <img src="/Imagenes/img/Monitores-1-800x800.jpg">
+                <img src="./img/Monitores-1-800x800.jpg">
 
             </div>
 
@@ -102,7 +102,7 @@
 
                 <h3> Perifericos </h3>
 
-                <img src="/Imagenes/img/Perifericos-1-800x800.jpg">
+                <img src="./img/Perifericos-1-800x800.jpg">
 
             </div>
 
@@ -135,69 +135,69 @@
 
         <div class="conteneddor">
             <div class="image">
-                <img src="/Imagenes/img/3060-Ti-1-2-247x247.jpg" alt="">
+                <img src="./img/3060-Ti-1-2-247x247.jpg" alt="">
                 <div class="overlay">
                     <a href="/Codigo/HTML/compra.html">
                         <p> Tarjeta Grafica MSI Nvidia RTX 3060 Ti 8GB</p>
                         <h3><span>$</span><strong>8,505</strong>DOP</h3>
                     </a>
-                    <button><input type="image" src="/Imagenes/img/al carrito.png"></button>
+                    <button><input type="image" src="./img/al carrito.png"></button>
                 </div>
             </div>
 
 
             <div class="image">
-                <img src="/Imagenes/img/3080-Ti-2-247x247.jpg" alt="">
+                <img src="./img/3080-Ti-2-247x247.jpg" alt="">
                 <div class="overlay">
                     <a href="/Codigo/HTML/compra.html">
                         <p> Tarjeta Grafica Nvidia GeForce RTX 3060 Ti 12 GB</p>
                         <h3><span>$</span><strong>8,505</strong>DOP</h3>
                     </a>
-                    <button><input type="image" src="/Imagenes/img/al carrito.png"></button>
+                    <button><input type="image" src="./img/al carrito.png"></button>
                 </div>
             </div>
 
             <div class="image">
-                <img src="/Imagenes/img/3060-Ti-2-5-247x247.jpg" alt="">
+                <img src="./img/3060-Ti-2-5-247x247.jpg" alt="">
                 <div class="overlay">
                     <a href="/Codigo/HTML/compra.html">
                         <p> Tarjeta Grafica Gigabyte Nvidia RTX 3069 Ti 8GB</p>
                         <h3><span>$</span><strong>8,505</strong>DOP</h3>
                     </a>
-                    <button><input type="image" src="/Imagenes/img/al carrito.png"></button>
+                    <button><input type="image" src="./img/al carrito.png"></button>
                 </div>
             </div>
 
             <div class="image">
-                <img src="/Imagenes/img/hunter_rev2_main_rgb_1200-min_3_3.jpg" alt="">
+                <img src="./img/hunter_rev2_main_rgb_1200-min_3_3.jpg" alt="">
                 <div class="overlay">
                     <a href="/Codigo/HTML/compra.html">
                         <p> Case Gamer GameMax Starlight <br></p>
                         <h3><span>$</span><strong>8,505</strong>DOP</h3>
                     </a>
-                    <button><input type="image" src="/Imagenes/img/al carrito.png"></button>
+                    <button><input type="image" src="./img/al carrito.png"></button>
                 </div>
             </div>
 
             <div class="image">
-                <img src="/Imagenes/img/3232-2-247x247.jpg" alt="">
+                <img src="./img/3232-2-247x247.jpg" alt="">
                 <div class="overlay">
                     <a href="/Codigo/HTML/compra.html">
                         <p> Monitor LG Gamer Full HD IPS Ultra Gear de 23.8</p>
                         <h3><span>$</span><strong>8,505</strong>DOP</h3>
                     </a>
-                    <button><input type="image" src="/Imagenes/img/al carrito.png"></button>
+                    <button><input type="image" src="./img/al carrito.png"></button>
                 </div>
             </div>
 
             <div class="image">
-                <img src="/Imagenes/img/YDF-33401D-150x150.jpg" alt="">
+                <img src="./img/YDF-33401D-150x150.jpg" alt="">
                 <div class="overlay">
                     <a href="/Codigo/HTML/compra.html">
                         <p> Perifericos Cascos VSG Singularity 7.1 Gamming RGB</p>
                         <h3><span>$</span><strong>8,505</strong>DOP</h3>
                     </a>
-                    <button><input type="image" src="/Imagenes/img/al carrito.png"></button>
+                    <button><input type="image" src="./img/al carrito.png"></button>
                 </div>
             </div>
         </div>
@@ -216,10 +216,10 @@
 
 
 
-                        <li> <img src="/Imagenes/img/_hardware_-4740377.jpg"> </li>
-                        <li> <img src="/Imagenes/img/comprar-pc-gamer-2021-battler.jpg"> </li>
-                        <li> <img src="/Imagenes/img/pc_para_streaming_gaming.jpg"> </li>
-                        <li> <img src="/Imagenes/img/Culturageek.com_.ar-Corsair-05.jpg"> </li>
+                        <li> <img src="./img/_hardware_-4740377.jpg"> </li>
+                        <li> <img src="./img/comprar-pc-gamer-2021-battler.jpg"> </li>
+                        <li> <img src="./img/pc_para_streaming_gaming.jpg"> </li>
+                        <li> <img src="./img/Culturageek.com_.ar-Corsair-05.jpg"> </li>
 
                         =======
 
@@ -238,10 +238,10 @@
 
 
 
-                            <li> <img src="/Imagenes/img/_hardware_-4740377.jpg"> </li>
-                            <li> <img src="/Imagenes/img/comprar-pc-gamer-2021-battler.jpg"> </li>
-                            <li> <img src="/Imagenes/img/pc_para_streaming_gaming.jpg"> </li>
-                            <li> <img src="/Imagenes/img/Culturageek.com_.ar-Corsair-05.jpg"> </li>
+                            <li> <img src="./img/_hardware_-4740377.jpg"> </li>
+                            <li> <img src="./img/comprar-pc-gamer-2021-battler.jpg"> </li>
+                            <li> <img src="./img/pc_para_streaming_gaming.jpg"> </li>
+                            <li> <img src="./img/Culturageek.com_.ar-Corsair-05.jpg"> </li>
 
                             >>>>>>> Dav-ADPI
                             <div class="cuadro">
@@ -268,62 +268,62 @@
 
                         <div class="conteneddor">
                             <div class="image">
-                                <img src="/Imagenes/img/3060-Ti-1-2-247x247.jpg">
+                                <img src="./img/3060-Ti-1-2-247x247.jpg">
                                 <div class="overlay">
                                     <p> Tarjeta Grafica Gigabyte Nvidia RTX 3060 Ti 8GB</p>
                                     <h3><span>$</span><strong>8,505</strong>DOP</h3>
-                                    <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>
+                                    <button><input type="image" src="./img/al carrito.png"></a></button>
                                 </div>
                             </div>
 
 
                             <div class="image">
-                                <img src="/Imagenes/img/910-006096-150x150.jpg">
+                                <img src="./img/910-006096-150x150.jpg">
                                 <div class="overlay">
                                     <p> Mouse Logitech G502 Hero</p>
                                     <h3><span>$</span><strong>8,505</strong>DOP</h3>
-                                    <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>
+                                    <button><input type="image" src="./img/al carrito.png"></a></button>
                                 </div>
                             </div>
 
 
                             <div class="image">
-                                <img src="/Imagenes/img/3070-Ti-2-247x247.jpg">
+                                <img src="./img/3070-Ti-2-247x247.jpg">
                                 <div class="overlay">
                                     <p> Tarjeta Grafica MSI Nvidia GeForce RTX 3060 Ti 8GB</p>
                                     <h3><span>$</span><strong>8,505</strong>DOP</h3>
-                                    <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>
+                                    <button><input type="image" src="./img/al carrito.png"></a></button>
                                 </div>
                             </div>
 
 
                             <div class="image">
-                                <img src="/Imagenes/img/dd_sg_st1000dm010_1tb-a-150x150.png">
+                                <img src="./img/dd_sg_st1000dm010_1tb-a-150x150.png">
                                 <div class="overlay">
                                     <p> Disco Duro 3.5 Seagate 1TB 7200RPM Sata 3 64MB</p>
                                     <h3><span>$</span><strong>8,505</strong>DOP</h3>
-                                    <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>
+                                    <button><input type="image" src="./img/al carrito.png"></a></button>
                                 </div>
                             </div>
 
 
 
                             <div class="image">
-                                <img src="/Imagenes/img/KF432S20IB-16-150x150.jpg">
+                                <img src="./img/KF432S20IB-16-150x150.jpg">
                                 <div class="overlay">
                                     <p> Memora Ram DDR4 Fury Impact 3200MHz 16GB </p>
                                     <h3><span>$</span><strong>8,505</strong>DOP</h3>
-                                    <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>
+                                    <button><input type="image" src="./img/al carrito.png"></a></button>
                                 </div>
                             </div>
 
 
                             <div class="image">
-                                <img src="/Imagenes/img/i7-11700F-150x150.jpg">
+                                <img src="./img/i7-11700F-150x150.jpg">
                                 <div class="overlay">
                                     <p> Procesador Intel Core i9 11900k 3.5GHz Octa Core</p>
                                     <h3><span>$</span><strong>8,505</strong>DOP</h3>
-                                    <button><input type="image" src="/Imagenes/img/al carrito.png"></a></button>
+                                    <button><input type="image" src="./img/al carrito.png"></a></button>
                                 </div>
                             </div>
 
@@ -335,7 +335,7 @@
                     </div>
 
     </main>
-</body>
+
 
 
 
@@ -350,7 +350,7 @@
             <td>
                 <h2> Perfil </h2>
             </td>
-            <td> <img src="/img/intento de logo.png" class="imaing"> </td>
+            <td> <img src="./img/intento de logo.png" class="imaing"> </td>
 
         </tr>
 
@@ -359,7 +359,7 @@
                 <a href="/Codigo/HTML/helper.html" class="aeaa"> Contacto </a>
             </td>
             <td>
-                <a href="/Codigo/HTML/cuentas.html" class="aeaa"> Cuenta </a>
+                <a href="categoria.php" class="aeaa"> Categoria </a>
             </td>
 
         <tr>
@@ -398,17 +398,17 @@
 
             <td colspan="1">
 
-                <img src="/Imagenes/Lote/Carrito/pngegg (-7.png" class="joda">
+                <img src="./Lote/Carrito/pngegg (-7.png" class="joda">
 
 
 
 
-                <img src="/Imagenes/Lote/Carrito/pngegg (-8.png" class="joda">
+                <img src="./Lote/Carrito/pngegg (-8.png" class="joda">
 
 
 
 
-                <img src="/Imagenes/Lote/Carrito/pngegg (-9.png" class="joda">
+                <img src="./Lote/Carrito/pngegg (-9.png" class="joda">
             </td>
 
         </tr>
@@ -417,13 +417,13 @@
 </footer>
 <footer class="Mfooter">
     <div>
-        <td> <img src="/Imagenes/img/letra ADPI.png" HSPACE="27px" class="imaing3"> </td>
-        <td> <img src="/Imagenes/img/fon123.png" HSPACE="308px" class="imaing2"> </td>
-        <td> <img src="/Imagenes/img/paypal.png" class="imaing5"> </td>
-        <td> <img src="/Imagenes/img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
-        <td> <img src="/Imagenes/img/Former_Visa.png" class="imaing6"> </td>
+        <td> <img src="./img/letra ADPI.png" HSPACE="27px" class="imaing3"> </td>
+        <td> <img src="./img/fon123.png" HSPACE="308px" class="imaing2"> </td>
+        <td> <img src="./img/paypal.png" class="imaing5"> </td>
+        <td> <img src="./img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
+        <td> <img src="./img/Former_Visa.png" class="imaing6"> </td>
     </div>
 
 </footer>
-
+</body>
 </html>

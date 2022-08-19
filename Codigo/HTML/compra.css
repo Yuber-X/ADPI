@@ -1,4 +1,3 @@
-
 /*COLORES QUE SE USARAN*/
 :root {
 
@@ -20,23 +19,23 @@
     
     @font-face {
         font-family: agency;
-        src: url(/Codigo/CSS/Fuentes/agency_fb.ttf);
+        src: url(./Fuentes/agency_fb.ttf);
     }
     @font-face {
         font-family: time;
-        src: url(/Codigo/CSS/Fuentes/times.ttf);
+        src: url(./Fuentes/times.ttf);
     }
     @font-face {
         font-family: time_bold;
-        src: url(/Codigo/CSS/Fuentes/timesbold.ttf);
+        src: url(./Fuentes/timesbold.ttf);
     }
     @font-face {
         font-family: giorgia;
-        src: url(/Codigo/CSS/Fuentes/georgia.ttf);
+        src: url(./Fuentes/georgia.ttf);
     }
     @font-face {
         font-family: agency_bold;
-        src: url(/Codigo/CSS/Fuentes/agency_fb_bold.ttf);
+        src: url(./Fuentes/agency_fb_bold.ttf);
     }
     
     
@@ -44,7 +43,7 @@
     
     html{
         font-family: agency;
-        background-image: url(/Imagenes/img/Fondo\ PNG\ 1.png);
+        background-image: url(./img/Fondo\ PNG\ 1.png);
         background-repeat: repeat;
         background-size: 85rem;
     }
@@ -63,7 +62,7 @@
         background-color: black;
         flex-direction: column;
         padding: 10px;
-        background: url(/Imagenes/img/fondo-conexion-red-degradado_23-2148865392.jpg);
+        background: url(./img/fondo-conexion-red-degradado_23-2148865392.jpg);
         background: cover;
         background-position: center center;
         background-size: cover;
@@ -360,7 +359,7 @@
         position: absolute;
         display: none;
         background-color: var(---blanco);
-        background: url(/Imagenes/Lote/Menu/Grupo\ 1.png);
+        background: url(./Lote/Menu/Grupo\ 1.png);
         border-style: groove;
         border-color: var(---principal);
         border-radius: 5px;
@@ -397,16 +396,20 @@
         display: block;
     }
     
+/*-----------------------------------------------*/
     
-    /* TITULOS DE ARTICULOS */
+/*----------TITULOS DE ARTICULOS----------*/
     
-    .encabezado{
+    
+.encabezado{
         width: 80rem;
-        margin-top: 8rem;
+        margin-top: 5rem;
         margin-left: 2.2rem;
-        margin-bottom: -0.4rem;
-        display:block;
-    }
+        margin-bottom: 2rem;
+        display:flex;
+        justify-content: right;
+}
+
 
 
     /* PRODUCTO COMPRAR (Selector de Imagen) */
@@ -756,13 +759,13 @@ display: table-row;
 
 
 footer{
-
-    background: url(/Imagenes/img/ffooter.png);
+    background: url(./img/ffooter.png);
     background: cover;
     background-position: center center;
     background-size: cover;
     margin-top: 5rem;
 }
+
 .tablazz td{
     padding:0 50px 0 50px;
 }
@@ -791,7 +794,7 @@ tr .posi{
 /* -------------Mini FOOTER---------------- */
 
 .Mfooter{
-    background: url(/Imagenes/img/fon123.PNG);
+    background: url(./img/fon123.PNG);
     margin-top: 0rem;
 }
 .imaing3{

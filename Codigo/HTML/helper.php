@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="/Codigo/CSS/normalize.css" as="style">
-    <link rel="stylesheet" href="/Codigo/CSS/normalize.css">
-    <link rel="preload" href="/Codigo/CSS/helper.css" as="style">
-    <link href="/Codigo/CSS/helper.css" rel="stylesheet">
+    <link rel="preload" href="normalize.css" as="style">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preload" href="helper.css" as="style">
+    <link href="helper.css" rel="stylesheet">
     <title>ADPI</title>
 </head>
 
@@ -22,14 +22,14 @@
         <a class="logo">
 
             <div class="crop-img">
-                <a href="/Codigo/HTML/index.html"> <img src="/Imagenes/img/intento de logo.png" class="Loge"
+                <a href="/Codigo/HTML/index.html"> <img src="./img/intento de logo.png" class="Loge"
                         alt="logoxd"> </a>
             </div>
 
             <div class="crop-img">
                 <div class="crop-img2">
                     <button type="button"><a href="/Codigo/HTML/Carrito.html"></a> <img
-                            src="/Imagenes/img/carrito.png"></button>
+                            src="./img/carrito.png"></button>
                 </div>
             </div>
 
@@ -39,7 +39,7 @@
                 <form class="form">
                     <div class="container-4">
                         <input type="search" id="search" placeholder="Search..." />
-                        <button class="icon"><i class="fa fa-search"></i> <img src="/Imagenes/img/pngwing.com.png">
+                        <button class="icon"><i class="fa fa-search"></i> <img src="./img/pngwing.com.png">
                         </button>
                     </div>
                 </form>
@@ -69,21 +69,21 @@
                         <a href="#">Componentes</a>
                         <ul class="menu_vertical">
                             <li><a href="/Codigo/HTML/catalogo/disipador.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 2.png"></a></li>
-                            <li><a href="/Codigo/HTML/catalogo/ram.html"><img src="/Imagenes/Lote/Menu/Boton 3.png"></a>
+                                        src="./Lote/Menu/Boton 2.png"></a></li>
+                            <li><a href="/Codigo/HTML/catalogo/ram.html"><img src="./Lote/Menu/Boton 3.png"></a>
                             </li>
                             <li><a href="/Codigo/HTML/catalogo/powersupply.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 4.png"></a></li>
+                                        src="./Lote/Menu/Boton 4.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/grafica.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 5.png"></a></li>
+                                        src="./Lote/Menu/Boton 5.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/herramientas.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 6.png"></a></li>
+                                        src="./Lote/Menu/Boton 6.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/discoduro.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 7.png"></a></li>
+                                        src="./Lote/Menu/Boton 7.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/motherboard.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 8.png"></a></li>
+                                        src="./Lote/Menu/Boton 8.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/procesadores.html"><img
-                                        src="/Imagenes/Lote/Menu/Boton 9.png"></a></li>
+                                        src="./Lote/Menu/Boton 9.png"></a></li>
                         </ul>
                     </li>
                     <li>
@@ -93,11 +93,11 @@
                         <a href="#">Perifericos</a>
                         <ul class="menu_vertical">
                             <li><a href="/Codigo/HTML/catalogo/entrada_p.html"> <img
-                                        src="/Imagenes/Lote/Menu/Boton 1p.png"></a></li>
+                                        src="./Lote/Menu/Boton 1p.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/salida_p.html"> <img
-                                        src="/Imagenes/Lote/Menu/Boton 2p.png"></a></li>
+                                        src="./Lote/Menu/Boton 2p.png"></a></li>
                             <li><a href="/Codigo/HTML/catalogo/comunicacion_p.html"> <img
-                                        src="/Imagenes/Lote/Menu/Boton 3p.png"></a></li>
+                                        src="./Lote/Menu/Boton 3p.png"></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -111,7 +111,7 @@
         <section>
             <div class="encabezado-alfa">
                 <div class="encabezado-beta">
-                    <img class="encabezado" src="/Imagenes/Lote/Helper/Nosotros.png">
+                    <img class="encabezado" src="./Lote/Helper/Nosotros.png">
                     <div>
                         <p>Muchas Personas de todo el mundo incluyendo también dominicanos, optan en compras piezas y
                             equipo <br>
@@ -143,7 +143,7 @@
                     </div>
                 </div>
                 <div>
-                    <img class="encabezado" src="/Imagenes/Lote/Helper/Terminos.png">
+                    <img class="encabezado" src="./Lote/Helper/Terminos.png">
                     <div>
                         <p>
                             <span>1.</span> ADPI no acepta formas de pago a distancia, se recomienda y se exige el pago
@@ -171,7 +171,7 @@
                     </div>
                 </div>
                 <div>
-                    <img class="encabezado" src="/Imagenes/Lote/Helper/Preguntas.png">
+                    <img class="encabezado" src="./Lote/Helper/Preguntas.png">
                     <div>
                         <p><em>¿Cómo puedo comprar?</em> <br> <br>
                             Teniendo en cuenta la cantidad de artículos que haya agregado a al carrito de compras, solo
@@ -195,7 +195,7 @@
                     </div>
                 </div>
                 <div>
-                    <img class="encabezado" src="/Imagenes/Lote/Helper/Contacto.png">
+                    <img class="encabezado" src="./Lote/Helper/Contacto.png">
                     <div>
                         <div>
                             <p>Todo problema existe una solución. Así que en cualquier inconveniente con nuestros
@@ -204,7 +204,7 @@
                             </p>
                         </div>
                         <div class="contacto_container">
-                            <img src="/Imagenes/Lote/Helper/Contactar al.png" class="contactar">
+                            <img src="./Lote/Helper/Contactar al.png" class="contactar">
                             <div>
                                 <p><strong>(849) 459 - 0242</strong></p>
                             </div>
@@ -230,7 +230,7 @@
                 <td>
                     <h2> Perfil </h2>
                 </td>
-                <td> <img src="/Imagenes/img/intento de logo.png" class="imaing"> </td>
+                <td> <img src="./img/intento de logo.png" class="imaing"> </td>
 
             </tr>
 
@@ -278,17 +278,17 @@
 
                 <td colspan="1">
 
-                    <img src="/Imagenes/Lote/Carrito/pngegg (-7.png" class="joda">
+                    <img src="./Lote/Carrito/pngegg (-7.png" class="joda">
 
 
 
 
-                    <img src="/Imagenes/Lote/Carrito/pngegg (-8.png" class="joda">
+                    <img src="./Lote/Carrito/pngegg (-8.png" class="joda">
 
 
 
 
-                    <img src="/Imagenes/Lote/Carrito/pngegg (-9.png" class="joda">
+                    <img src="./Lote/Carrito/pngegg (-9.png" class="joda">
                 </td>
 
             </tr>
@@ -297,11 +297,11 @@
     </footer>
     <footer class="Mfooter">
         <div>
-            <td> <img src="/Imagenes/img/letra ADPI.png" HSPACE="27px" class="imaing3"> </td>
-            <td> <img src="/Imagenes/img/fon123.png" HSPACE="308px" class="imaing2"> </td>
-            <td> <img src="/Imagenes/img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
-            <td> <img src="/Imagenes/img/paypal.png" class="imaing5"> </td>
-            <td> <img src="/Imagenes/img/Former_Visa.png" class="imaing6"> </td>
+            <td> <img src="./img/letra ADPI.png" HSPACE="27px" class="imaing3"> </td>
+            <td> <img src="./img/fon123.png" HSPACE="308px" class="imaing2"> </td>
+            <td> <img src="./img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
+            <td> <img src="./img/paypal.png" class="imaing5"> </td>
+            <td> <img src="./img/Former_Visa.png" class="imaing6"> </td>
         </div>
     </footer>
 </body>
