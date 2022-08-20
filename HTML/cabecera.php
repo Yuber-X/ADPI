@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" type="text/css" href="Index.css">
+    <link rel="Stylesheet" type="text/css" href="index.css">
     
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/bootstrap.min.js"> </script>
@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top modify-nav">
     <a class="navbar-brand" href="index.php"> ADPI </a>
     <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,21 +36,14 @@
             <a class="nav-link" href="catalogo.php"> Catalogo </a>
             </li>
 
-            <li class="nav-item active">
-            <a class="nav-link" href="catalogo.php"> Iniciar Seccion </a>
-            </li>
+     
 
             
            
         </ul>
-        <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
 
-        <span class="navbar-text">
-        Navbar text with an inline element
-      </span>
+
+
     </div>
 </nav>
 
