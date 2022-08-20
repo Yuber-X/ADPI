@@ -450,7 +450,7 @@
     transition: .3s; /*Tracsicion de opacidad*/
 }
 .container .thumbneil_container .thumbnail:hover {
-opacity: 1; /*opacidad*/
+    opacity: 1; /*opacidad*/
 }
 .active {
     opacity: 1 !important; /*El "!important" para hacer prioridad*/

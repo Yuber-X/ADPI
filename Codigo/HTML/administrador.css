@@ -366,6 +366,7 @@
         width: 200px;
         margin-top: 3rem;
         margin-left: 2.2rem;
+        z-index: 9999;
     }
     
     .menu_vertical li a {
@@ -412,81 +413,30 @@
 
 
 
+
 /*----------------------------------------------*/
 
-/*--------------FORMULARIO----------------*/
-
-.container_form{
-    padding: 2rem 70rem 4rem 3rem;
-}
-form .col-12 button{
-    margin-top: 1rem;
-    margin-left: 3.9rem;
-    background-color: #2ce426;
-    color: #000000;
-    border-color: #4a8f48;
-}
-form .col-12 button:hover{
-    background-color: var(---principal);
-    border-color: var(---principal);
-}
-form .col-13 button{
-    margin-top: -4.13rem;
-    margin-left: 8.7rem;
-    background-color: #d1e426;
-    color: #000000;
-    border-color: #888f48;
-}
-form .col-13 button:hover{
-    background-color: var(---principal);
-    border-color: var(---principal);
-}
-
-
-/*--------------DATA-GRID PRODUCTO----------------*/
-
-.table button{
+/*----------------BOTONES----------------*/
+.container_btn a{
+    padding: 3rem 6rem 3rem 6rem;
+    margin: 2rem 1rem 2rem 0rem;
+    font-size: 3rem;
+    background-color: var(---secundario);
+    opacity: 0.68;
+    transition: 0.3s;
+    border-radius: 2rem;
     border: none;
-    background-color: transparent;
-} 
-.table img{
-    width: 2rem;
 }
-
-.table{
-    text-align: center;
-    box-shadow: 4px 4px 8px var(---principal);
-    border-top: none;
+.container_btn a:hover{
+    background-color: var(---principal);
+    box-shadow: 4px 4px 5px var(---secundario);
+    opacity: 1; 
 }
-
-.container_tabla_prod{
-    padding: 0rem 2rem 0rem 24rem;
-    margin-top: -29.7rem;
-}
-
-
-/*--------------DATA-GRID CATEGORIA----------------*/
-.container_tabla_cat{
-    padding: 0rem 2rem 2rem 24rem;
-}
-.container_tabla_cat td{
-    font-size: 1.1rem;
-}
-.container_tabla_cat th{
+.container_btn{
+    margin-left: 8rem;
     font-family: agency_bold;
-    font-size: 1.8rem;
 }
 
-/*--------------BOTÓN----------------*/
-.container-boton{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    
-
-    top: 115%;
-    left: 10%;
-}
 
 
 

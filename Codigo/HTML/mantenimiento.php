@@ -94,7 +94,7 @@
 
   <section>
     <img class="encabezado" src="./img/Mantenimiento.png">
-  </section>
+  </section> 
 
   <main>
     <section>
@@ -322,7 +322,20 @@
                 </tr> -->
             </table>
         </div>
+        
+        
+        <!--  BOTÓN  -->
+    <div class="container-boton">
+      <a href="administrador.php" class="btn btn-primary btn-lg" tabindex="-1" role="button" aria-disabled="true">Volver</a> 
+
+    </div>
+
+   
     </section>
+
+
+
+
   </main>
 
   
