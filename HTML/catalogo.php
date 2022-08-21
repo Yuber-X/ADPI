@@ -11,29 +11,6 @@ $procesadores = "SELECT * FROM productos ";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,7 +20,8 @@ $procesadores = "SELECT * FROM productos ";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    
-    <link href=" /CSS/Catalogo.css" rel="stylesheet">
+
+    <link href="./Catalogo.css" rel="stylesheet">
 
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -71,14 +49,15 @@ $procesadores = "SELECT * FROM productos ";
                 <li >
                     <a href="#">Componentes</a>
                         <ul class="menu_vertical">
-                            <li><a href=" /HTML/catalogo/disipador.html"><img src="/Imagenes/Lote/Menu/Boton 2.png"></a></li>
-                            <li><a href=" /HTML/catalogo/ram.html"><img src="/Imagenes/Lote/Menu/Boton 3.png"></a></li>
-                            <li><a href=" /HTML/catalogo/powersupply.html"><img src="/Imagenes/Lote/Menu/Boton 4.png"></a></li>
-                            <li><a href=" /HTML/catalogo/grafica.html"><img src="/Imagenes/Lote/Menu/Boton 5.png"></a></li>
-                            <li><a href=" /HTML/catalogo/herramientas.html"><img src="/Imagenes/Lote/Menu/Boton 6.png"></a></li>
-                            <li><a href=" /HTML/catalogo/discoduro.html"><img src="/Imagenes/Lote/Menu/Boton 7.png"></a></li>
-                            <li><a href=" /HTML/catalogo/motherboard.html"><img src="/Imagenes/Lote/Menu/Boton 8.png"></a></li>
-                            <li><a href=" /HTML/catalogo/procesadores.html"><img src="/Imagenes/Lote/Menu/Boton 9.png"></a></li>
+
+                            <li><a href=" /HTML/catalogo/disipador.html"><img src="./Lote/Menu/Boton 2.png"></a></li>
+                            <li><a href=" /HTML/catalogo/ram.html"><img src="./Lote/Menu/Boton 3.png"></a></li>
+                            <li><a href=" /HTML/catalogo/powersupply.html"><img src="./Lote/Menu/Boton 4.png"></a></li>
+                            <li><a href=" /HTML/catalogo/grafica.html"><img src="./Lote/Menu/Boton 5.png"></a></li>
+                            <li><a href=" /HTML/catalogo/herramientas.html"><img src="./Lote/Menu/Boton 6.png"></a></li>
+                            <li><a href=" /HTML/catalogo/discoduro.html"><img src="./Lote/Menu/Boton 7.png"></a></li>
+                            <li><a href=" /HTML/catalogo/motherboard.html"><img src="./Lote/Menu/Boton 8.png"></a></li>
+                            <li><a href=" /HTML/catalogo/procesadores.html"><img src="./Lote/Menu/Boton 9.png"></a></li>
                         </ul>
                 </li>
                 <li>
@@ -87,9 +66,9 @@ $procesadores = "SELECT * FROM productos ";
                 <li>
                     <a href="#">Perifericos</a>
                         <ul class="menu_vertical">
-                            <li><a href=" /HTML/catalogo/entrada_p.html"> <img src="/Imagenes/Lote/Menu/Boton 1p.png"></a></li>
-                            <li><a href=" /HTML/catalogo/salida_p.html"> <img src="/Imagenes/Lote/Menu/Boton 2p.png"></a></li>
-                            <li><a href=" /HTML/catalogo/comunicacion_p.html"> <img src="/Imagenes/Lote/Menu/Boton 3p.png"></a></li>
+                            <li><a href=" /HTML/catalogo/entrada_p.html"> <img src="./Lote/Menu/Boton 1p.png"></a></li>
+                            <li><a href=" /HTML/catalogo/salida_p.html"> <img src="./Lote/Menu/Boton 2p.png"></a></li>
+                            <li><a href=" /HTML/catalogo/comunicacion_p.html"> <img src="./Lote/Menu/Boton 3p.png"></a></li>
                         </ul>                 
                 </li>
             </ul>
@@ -103,7 +82,8 @@ $procesadores = "SELECT * FROM productos ";
 
     <section>
         <div>
-            <h1><img class="encabezado" src="/Imagenes/Lote/Catalogo/catalogo_0.png" alt=""></h1>
+
+            <h1><img class="encabezado" src="./Lote/Catalogo/catalogo_0.png" alt=""></h1>
         </div>
     </section>
 
@@ -169,7 +149,9 @@ $procesadores = "SELECT * FROM productos ";
               <tr>
                 <td> <h2> Soporte </h2> </td>
                 <td> <h2>  Perfil </h2>  </td>
-                <td> <img src="/Imagenes/img/intento de logo.png" class="imaing"> </td>
+
+                <td> <img src="./img/intento de logo.png" class="imaing"> </td>
+
                
               </tr>
     
@@ -217,17 +199,23 @@ $procesadores = "SELECT * FROM productos ";
             
             <td colspan="1" > 
                 
-                <img src="/Imagenes/Lote/Carrito/pngegg (-7.png" class="joda">   
+
+                <img src="./Lote/Carrito/pngegg (-7.png" class="joda">   
+
                
     
                
                 
-                <img src="/Imagenes/Lote/Carrito/pngegg (-8.png" class="joda">      
+
+                <img src="./Lote/Carrito/pngegg (-8.png" class="joda">      
+
                
     
              
                
-                <img src="/Imagenes/Lote/Carrito/pngegg (-9.png" class="joda">      
+
+                <img src="./Lote/Carrito/pngegg (-9.png" class="joda">      
+
                </td>
     
             </tr>
@@ -236,11 +224,11 @@ $procesadores = "SELECT * FROM productos ";
     </footer>
     <footer class="Mfooter">
         <div>
-            <td> <img src="/Imagenes/img/letra ADPI.png" HSPACE="27px"  class="imaing3"> </td>
-            <td> <img src="/Imagenes/img/fon123.png" HSPACE="308px"class="imaing2"> </td>
-            <td> <img src="/Imagenes/img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
-            <td> <img src="/Imagenes/img/paypal.png"  class="imaing5"> </td>
-            <td> <img src="/Imagenes/img/Former_Visa.png" class="imaing6"> </td>
+            <td> <img src="./img/letra ADPI.png" HSPACE="27px"  class="imaing3"> </td>
+            <td> <img src="./img/fon123.png" HSPACE="308px"class="imaing2"> </td>
+            <td> <img src="./img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
+            <td> <img src="./img/paypal.png"  class="imaing5"> </td>
+            <td> <img src="./img/Former_Visa.png" class="imaing6"> </td>
         </div>
     </footer>
 </body>

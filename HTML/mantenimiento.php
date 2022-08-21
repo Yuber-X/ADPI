@@ -1,80 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include("config.php");
+include("cn.php");
+include 'carrito.php';
+include("cabecera.php");
+?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ADPI ADMINISTRADOR</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
+
   <link rel="preload" href="normalize.css" as="style">
   <link rel="stylesheet" href="normalize.css">
   <link rel="preload" href="mantenimiento.css" as="style">
   <link href="mantenimiento.css" rel="stylesheet">
-</head>
-<body>
-<html>
-  <!--  HEADER  -->
- 
-  <header id="header">
-    <a class="logo">
-      <div class="crop-img">
-        <a href="/Codigo/HTML/index.html"> <img src="./img/intento de logo.png" class="Loge" alt="logoxd"> </a>
-      </div>
-      <div class="crop-img">
-        <div class="crop-img2">
-          <button type="button"><a href="/Codigo/HTML/Carrito.html"></a> <img src="./img/carrito.png"></button>
-        </div>
-      </div>
-      <div class="divid">
-        <form class="form">
-          <div class="container-4">
-            <input type="search" id="search" placeholder="Search..." />
-            <button class="icon"><i class="fa fa-search"></i> <img src="./img/pngwing.com.png"> </button>
-          </div>
-        </form>
-      </div>
-    </a>
-    <!-- <img src="img/intento de logo.png" class="Loge" href="Index.html" alt="logoxd"> -->
-    <nav class="navegator">
-      <a href="/Codigo/HTML/Carrito.html" class="Cum"> Carrito </a>
-      <a href="/Codigo/HTML/helper.html" class="Cum"> Contacto </a>
-    </nav>
-    <!--      MENU       -->
-    <div class="contenedor_menu">
-      <nav class="nav_menu">
-        <ul class="menu_horizontal">
-          <li>
-            <a href="/Codigo/HTML/catalogo/case.html">Case</a>
-          </li>
-          <li>
-            <a href="#">Componentes</a>
-            <ul class="menu_vertical">
-              <li><a href="/Codigo/HTML/catalogo/disipador.html"><img src="./Lote/Menu/Boton 2.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/ram.html"><img src="./Lote/Menu/Boton 3.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/powersupply.html"><img src="./Lote/Menu/Boton 4.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/grafica.html"><img src="./Lote/Menu/Boton 5.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/herramientas.html"><img src="./Lote/Menu/Boton 6.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/discoduro.html"><img src="./Lote/Menu/Boton 7.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/motherboard.html"><img src="./Lote/Menu/Boton 8.png"></a></li>
-              <li><a href="/Codigo/HTML/catalogo/procesadores.html"><img src="./Lote/Menu/Boton 9.png"></a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="/Codigo/HTML/catalogo/monitores.html">Monitores</a>
-          </li>
-          <li>
-            <a href="/Codigo/HTML/catalogo/perifericos.html">Perifericos</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+
+
   <!-- TITULO de formulario -->
+
   <section>
     <img class="encabezado" src="./img/Mantenimiento.png">
-  </section> 
+  </section>
+
+
   <main>
     <section>
         <!--  FORMULARIO  -->
@@ -84,7 +28,6 @@
                     <span class="input-group-text" id="basic-addon1">Producto</span>
                     <input type="text" class="form-control" placeholder="Nombre del Producto" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
-                
                 
                 <div class="input-group mb-3">
                   <span class="input-group-text" id="basic-addon2">Suplidor</span>
@@ -297,6 +240,7 @@
                 </tr> -->
             </table>
         </div>
+
         
         
         <!--  BOTÓN  -->
@@ -351,8 +295,17 @@
         <a href="Categoria.php" class="aeaa"> Categoria </a>
         </td>
         <td colspan="1">
+
+
           <img src="./Lote/Carrito/pngegg (-7.png" class="joda">
+
+
+
+
           <img src="./Lote/Carrito/pngegg (-8.png" class="joda">
+
+
+
           <img src="./Lote/Carrito/pngegg (-9.png" class="joda">
         </td>
       </tr>
