@@ -1,3 +1,4 @@
+
 <?php
 include("config.php");
 include("cn.php");
@@ -9,6 +10,7 @@ include("cabecera.php");
   <link rel="stylesheet" href="normalize.css">
   <link rel="preload" href="pedidos-admin.css" as="style">
   <link href="pedidos-admin.css" rel="stylesheet">
+
     <!-- TITULO de formulario -->
     <section>
         <img class="encabezado" src="./Lote/Pedidos/Administrador.png">
@@ -229,15 +231,10 @@ include("cabecera.php");
                 </td>
                 <td colspan="1">
 
+
                     <img src="./Lote/Carrito/pngegg (-7.png" class="joda">
 
-
-
-
                     <img src="./Lote/Carrito/pngegg (-8.png" class="joda">
-
-
-
 
                     <img src="./Lote/Carrito/pngegg (-9.png" class="joda">
                 </td>

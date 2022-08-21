@@ -6,10 +6,13 @@ include("cabecera.php");
 ?>
 
 <title>ADPI</title>
+
+
   <link rel="preload" href="normalize.css" as="style">
   <link rel="stylesheet" href="normalize.css">
   <link rel="preload" href="formulario.css" as="style">
   <link href="formulario.css" rel="stylesheet">
+
 
   <!-- TITULO de formulario -->
   
@@ -17,6 +20,7 @@ include("cabecera.php");
     <img class="encabezado" src="./img/Formulario.png">
   </section>
   
+
   <!--  FORMULARIO  -->
 <div class="container_form">
   <form class="row g-3">

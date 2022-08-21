@@ -32,10 +32,12 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
   </div>
 <?php  } ?>
 </div>
+
     <link rel="preload" href="normalize.css" as="style">
     <link rel="stylesheet" href="normalize.css">
     <link rel="preload" href="./index.css" as="style">
     <link href="./index.css" rel="stylesheet">
+
 
 
 
@@ -57,10 +59,12 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
   <div class="slider">
     <ul>
 
+
       <li> <img src="./img/LOGITECH-BANNER-WEB-G305.jpg"> </li>
       <li> <img src="./img/Banner_G5_1900x600_B-14.jpg"> </li>
       <li> <img src="./img/Banner_XtremetecPC.jpg"> </li>
       <li> <img src="./img/imagen 4.png"> </li>
+
 
     </ul>
 
@@ -73,7 +77,9 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
 
       <h3> Case </h3>
 
+
       <img src="./img/Chasis-1-800x800.jpg">
+
 
     </div>
 
@@ -82,7 +88,9 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
         Componentes
       </h3>
 
+
       <img src="./img/Componentes-1-800x800.jpg">
+
 
     </div>
 
@@ -90,7 +98,9 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
 
       <h3> Monitores </h3>
 
+
       <img src="./img/Monitores-1-800x800.jpg">
+
 
     </div>
 
@@ -98,7 +108,9 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
 
       <h3> Perifericos </h3>
 
+
       <img src="./img/Perifericos-1-800x800.jpg">
+
 
     </div>
 
@@ -437,10 +449,12 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
 
 
 
+
           <li> <img src="./img/_hardware_-4740377.jpg"> </li>
           <li> <img src="./img/comprar-pc-gamer-2021-battler.jpg"> </li>
           <li> <img src="./img/pc_para_streaming_gaming.jpg"> </li>
           <li> <img src="./img/Culturageek.com_.ar-Corsair-05.jpg"> </li>
+
 
           <div class="cuadro">
             <h2> Subscribete y recibe lo ultimo en ofertas</h2>
@@ -796,7 +810,9 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
         <td>
           <h2> Perfil </h2>
         </td>
+
         <td> <img src="./img/intento de logo.png" class="imaing"> </td>
+
 
       </tr>
 
@@ -844,7 +860,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
 
         <td colspan="1">
 
+
           <img src="./img/pngegg (-7.png" class="joda">
+
+
 
 
 
@@ -854,7 +873,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
 
 
 
+
+
           <img src="./img/pngegg (-9.png" class="joda">
+
         </td>
 
       </tr>
@@ -864,11 +886,13 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
 
   <footer class="Mfooter">
     <div>
+
       <td> <img src="./img/letra ADPI.png" HSPACE="27px" class="imaing3"> </td>
       <td> <img src="./img/fon123.png" HSPACE="308px" class="imaing2"> </td>
       <td> <img src="./img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
       <td> <img src="./img/paypal.png" " class=" imaing5"> </td>
       <td> <img src="./img/Former_Visa.png" class="imaing6"> </td>
+
 
     </div>
 

@@ -11,7 +11,6 @@ $procesadores = "SELECT * FROM productos ";
 
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,6 +20,7 @@ $procesadores = "SELECT * FROM productos ";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    
+
     <link href="./Catalogo.css" rel="stylesheet">
 
 
@@ -49,6 +49,7 @@ $procesadores = "SELECT * FROM productos ";
                 <li >
                     <a href="#">Componentes</a>
                         <ul class="menu_vertical">
+
                             <li><a href=" /HTML/catalogo/disipador.html"><img src="./Lote/Menu/Boton 2.png"></a></li>
                             <li><a href=" /HTML/catalogo/ram.html"><img src="./Lote/Menu/Boton 3.png"></a></li>
                             <li><a href=" /HTML/catalogo/powersupply.html"><img src="./Lote/Menu/Boton 4.png"></a></li>
@@ -81,6 +82,7 @@ $procesadores = "SELECT * FROM productos ";
 
     <section>
         <div>
+
             <h1><img class="encabezado" src="./Lote/Catalogo/catalogo_0.png" alt=""></h1>
         </div>
     </section>
@@ -147,7 +149,9 @@ $procesadores = "SELECT * FROM productos ";
               <tr>
                 <td> <h2> Soporte </h2> </td>
                 <td> <h2>  Perfil </h2>  </td>
+
                 <td> <img src="./img/intento de logo.png" class="imaing"> </td>
+
                
               </tr>
     
@@ -195,17 +199,23 @@ $procesadores = "SELECT * FROM productos ";
             
             <td colspan="1" > 
                 
+
                 <img src="./Lote/Carrito/pngegg (-7.png" class="joda">   
+
                
     
                
                 
+
                 <img src="./Lote/Carrito/pngegg (-8.png" class="joda">      
+
                
     
              
                
+
                 <img src="./Lote/Carrito/pngegg (-9.png" class="joda">      
+
                </td>
     
             </tr>

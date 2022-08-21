@@ -4,7 +4,6 @@ include("cn.php");
 include 'carrito.php';
 include("cabecera.php");
 ?>
-
     <link rel="preload" href="/Codigo/CSS/normalize.css" as="style">
     <link rel="stylesheet" href="/Codigo/CSS/normalize.css">
     <link rel="preload" href="/Codigo/CSS/helper.css" as="style">
@@ -159,17 +158,8 @@ include("cabecera.php");
                     <a href="/Codigo/HTML/Favoritos.html" class="aeaa"> Lista de Deseos </a>
                 </td>
                 <td colspan="1">
-
                     <img src="./Lote/Carrito/pngegg (-7.png" class="joda">
-
-
-
-
                     <img src="./Lote/Carrito/pngegg (-8.png" class="joda">
-
-
-
-
                     <img src="./Lote/Carrito/pngegg (-9.png" class="joda">
                 </td>
             </tr>

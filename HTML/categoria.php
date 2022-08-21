@@ -1,3 +1,4 @@
+
 <?php
 include("config.php");
 include("cn.php");
@@ -9,6 +10,7 @@ include("cabecera.php");
   <link rel="stylesheet" href="normalize.css">
   <link rel="preload" href="categoria.css" as="style">
   <link href="categoria.css" rel="stylesheet">
+
 
   <!-- TITULO de formulario -->
 
@@ -31,8 +33,6 @@ include("cabecera.php");
                   <span class="input-group-text" id="basic-addon2">Codigo</span>
                     <input type="text" class="form-control" placeholder="Codigo" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 </div>
-
-
                 <div class="col-12">
                     <button type="submit" class="btn btn-primary">Crear</button>
                 </div>
@@ -42,7 +42,6 @@ include("cabecera.php");
             </div>
         </form>
     </section>
-
     <section>
         <!--  DATA-GRID CATEGORIA  -->
         <div class="container_tabla_cat">
@@ -126,6 +125,7 @@ include("cabecera.php");
     </section>
   </main>
 
+
   
 
 
@@ -135,6 +135,7 @@ include("cabecera.php");
 
     <table cellspacing="15px" class="tablazz">
 
+  
       <tr>
         <td>
           <h2> Soporte </h2>
@@ -146,6 +147,7 @@ include("cabecera.php");
 
       </tr>
 
+
       <tr>
         <td class="tabloide">
           <a href="/Codigo/HTML/helper.html" class="aeaa"> Contacto </a>
@@ -153,13 +155,13 @@ include("cabecera.php");
         <td>
           <a href="mantenimiento.php" class="aeaa"> Mantenimiento </a>
         </td>
-
       <tr>
         <td>
           <a href="/Codigo/HTML/helper.html" class="aeaa"> Nosotros </a>
         </td>
         <td>
         </td>
+
 
         <td class="posi" rowspan="2">
           <a href="#" class="aeaa"> Siguenos: </a>
@@ -186,6 +188,7 @@ include("cabecera.php");
 
 
 
+
         <td colspan="1">
 
           <img src="./Lote/Carrito/pngegg (-7.png" class="joda">
@@ -204,6 +207,7 @@ include("cabecera.php");
       </tr>
     </table>
 
+
   </footer>
   <footer class="Mfooter">
     <div>
@@ -215,9 +219,9 @@ include("cabecera.php");
     </div>
   </footer>
 
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
-
   </body>
 </html>
