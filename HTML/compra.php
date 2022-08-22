@@ -1,3 +1,4 @@
+
 <?php
 include("config.php");
 include("cn.php");
@@ -9,6 +10,8 @@ include("cabecera.php");
   <link rel="stylesheet" href="normalize.css">
   <link rel="preload" href="compra.css" as="style">
   <link href="compra.css" rel="stylesheet">
+
+
      <!-- TITULO de formulario -->
      <section> 
         <img class="encabezado" src="./Lote/Comprar/Rectángulo 10.png">
