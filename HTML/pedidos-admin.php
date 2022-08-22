@@ -136,122 +136,17 @@ include("cabecera.php");
     
       </table>    
   </div>
-            <!-- TABLA YUBER -->
-            <!-- ENCABEZADO DE PRODUCTO 
-            <table class="tabla0">
-                <tr>
-                    <th>
-                        <p><strong>Producto-ID</strong></p>
-                    </th>
-                    <th>
-                        <p>Precio</p>
-                    </th>
-                    <th>
-                        <p>Cantidad</p>
-                    </th>
-                    <th>
-                        <p>Usuario-ID</p>
-                    </th>
-                </tr>
-            </table>
-            -->
-            <!-- PRODUCTO EN LISTA 
-            <table class="tabla1">
-                <tr>
-                    <td>
-                        <p>Tarjeta de Video GIGABYTE GTX <br>
-                            1660 Ti 6 GB GDDR6 NVIDIA <br>
-                            1800 MHz</p>
-                    </td>
-                    <td>
-                        <p><strong>G-4444</strong></p>
-                    </td>
-                    <td>
-                        <p><span>$8,490</span></p>
-                    </td>
-                    <td>
-                        <input type="number" placeholder="1">
-                    </td>
-                    <td>
-                        <p><span><strong>EST-44</strong></span></p>
-                    </td>
-                    <td>
-                        <button href="#"><img src="./img/basura-2.png" alt="basura"></button>
-                    </td>
-                </tr>
-            </table> 
-            -->
+            
+
+        <div class="container-boton">
+           <a href="administrador.php" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Volver</a>
+        </div>
         </section>
     </main>
+
     <!-- COMIENZO DEL FOOTER -->
-    <footer style="background-color: darkred;">
-        <table cellspacing="15px" class="tablazz">
-            <tr>
-                <td>
-                    <h2> Soporte </h2>
-                </td>
-                <td>
-                    <h2> Perfil </h2>
-                </td>
-                <td> <img src="./img/intento de logo.png" class="imaing"> </td>
-            </tr>
-            <tr>
-                <td class="tabloide">
-                    <a href="/Codigo/HTML/helper.html" class="aeaa"> Contacto </a>
-                </td>
-                <td>
-                    <a href="mantenimiento.php" class="aeaa"> Mantenimiento </a>
-                </td>
-            <tr>
-                <td>
-                    <a href="/Codigo/HTML/helper.html" class="aeaa"> Nosotros </a>
-                </td>
-                <td>
-                    <a href="pedidos-admin.php" class="aeaa"> Pedidos </a>
-                </td>
-                <td class="posi" rowspan="2">
-                    <a href="#" class="aeaa"> Siguenos: </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/Codigo/HTML/helper.html" class="aeaa"> Terminos y Condiciones </a>
-                </td>
-                <td>
-                    <a href="/Codigo/HTML/catalogo/grafica.html" class="aeaa"> Comprar </a>
-                </td>
-            <tr>
-                <td>
-                    <a href="/Codigo/HTML/helper.html" class="aeaa"> Preguntas Frecuentes </a>
-                </td>
-                <td>
-                    <a href="/Codigo/HTML/Favoritos.html" class="aeaa"> Lista de Deseos </a>
-                </td>
-                <td colspan="1">
-
-                    <img src="./Lote/Carrito/pngegg (-7.png" class="joda">
-
-
-
-
-                    <img src="./Lote/Carrito/pngegg (-8.png" class="joda">
-
-
-
-
-                    <img src="./Lote/Carrito/pngegg (-9.png" class="joda">
-                </td>
-            </tr>
-        </table>
-    </footer>
-    <footer class="Mfooter">
-        <div>
-            <td> <img src="./img/letra ADPI.png" HSPACE="27px" class="imaing3"> </td>
-            <td> <img src="./img/fon123.png" HSPACE="308px" class="imaing2"> </td>
-            <td> <img src="./img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
-            <td> <img src="./img/paypal.png" class="imaing5"> </td>
-            <td> <img src="./img/Former_Visa.png" class="imaing6"> </td>
-        </div>
-    </footer>
+<?php
+ include("pie.php");
+ ?>
 </body>
 </html>

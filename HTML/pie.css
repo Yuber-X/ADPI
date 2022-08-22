@@ -1,0 +1,184 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 100%;
+    height: 40vh;
+}
+.footer-container-caja-top {
+    display: flex;
+    width: inherit;
+    background-color: #580000;
+    height: 80%;
+}
+.footer-container-caja-top__soporte {
+    width: 30%;
+    padding: 10px;
+}
+
+.footer-container-caja-top__soporte h3 {
+    font-size: 1.8em;
+    font-family: agency;
+    color: #fff;
+    transition: .3s all ease-in-out;
+}
+.footer-container-caja-top__soporte h3:hover {
+    text-shadow: .3px .5px 0px #fff;
+}
+.footer-container-caja-top__soporte div a {
+    font-size: 1.2em;
+    color: rgb(245, 245, 245);
+    font-family: agency;
+    text-decoration: none;
+    position: absolute;
+    transition: .3s all ease-in-out;
+}
+.footer-container-caja-top__soporte div a:nth-child(1) {
+    top: 40%;
+    left: 3%;
+}
+.footer-container-caja-top__soporte div a:nth-child(2) {
+    left: 3%;
+    top: 20%;
+}
+.footer-container-caja-top__soporte div a:nth-child(3) {
+    left: 3%;
+    top: 60%;
+}
+.footer-container-caja-top__soporte div a:nth-child(4) {
+    left: 3%;
+}
+.footer-container-caja-top__soporte div a:hover {
+    font-size: 1.3em;
+    color: #fa8080;
+}
+.footer-container-caja-top__soporte div {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    height: 80%;
+}
+.footer-container-caja-top__adm {
+    width: 25%;
+    padding: 10px;
+    background-color: #580000;
+}
+.footer-container-caja-top__adm h3 {
+    font-size: 1.8em;
+    font-family: agency;
+    color: #fff;
+    transition: .3s all ease-in-out;
+}
+
+.footer-container-caja-top__adm div {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    width: 60%;
+    height: 80%;
+}
+.footer-container-caja-top__adm div a {
+    font-size: 1.2em;
+    color: rgb(245, 245, 245);
+    font-family: agency;
+    text-decoration: none;
+    position: absolute;
+    transition: .3s all ease-in-out;
+}
+.footer-container-caja-top__adm div a:hover {
+    font-size: 1.3em;
+    color: #fa8080;
+}
+.footer-container-caja-top__adm h3:hover {
+    text-shadow: .3px .5px 0px #fff;
+}
+.footer-container-caja-top__redesSociales {
+    position: relative;
+    width: 30%;
+    background-color: #580000;
+}
+.footer-container-caja-top__redesSociales div:nth-child(1) {
+    position: relative;
+    top: 14px;
+    left: 21px;
+    width: 150px;
+    height: 50px;
+
+    border: 2px solid var(---principal);
+}
+.footer-container-caja-top_redesSociales__logo {
+    text-align: center;
+    position: absolute;
+    top: -13px;
+    left: 15px;
+    text-shadow: .1px 0px 2px #000;
+    font-family: agency_bold;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3em;
+    color: #B3A1A1;
+}
+.footer-container-caja-top_redesSociales__TIF {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    top: 60px;
+    left: 20px;
+}
+.footer-container-caja-top_redesSociales__siguenos {
+    position: relative;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    top: 65px;
+    left: 20px;
+}
+.footer-container-caja-top_redesSociales__TIF img:nth-child(1) {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+.footer-container-caja-top_redesSociales__TIF img:nth-child(2) {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 70px;
+}
+.footer-container-caja-top__redesSociales img:nth-child(3) {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 140px;
+}
+.footer-container-caja-top div:nth-child(4) {
+    position: relative;
+    top: 50px;
+}
+.footer-container-caja-buttom {
+    width: inherit;
+    position:relative;
+    background-color:#330000;
+    height: 20%;
+}
+.footer-container-caja-buttom img:nth-child(1){
+    position: absolute;
+    width: 210px;
+
+}
+.footer-container-caja-buttom img:nth-child(2){
+    position: absolute;
+    top:9%;
+    left: 90%;
+    width: 90px;
+    height: 50px;
+}
+.footer-container-caja-buttom img:nth-child(3){
+    position: absolute;
+    top:9%;
+    left: 80%;
+    width: 90px;
+    height: 50px;
+}
+.Mfooter {
+    background: url(/Imagenes/img/fon123.PNG);
+}

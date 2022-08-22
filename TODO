@@ -1,13 +1,19 @@
 
 Todo:
-  ✔ Crear y modificar html formulario @done(22-08-17 23:13)
-  ✔ Crear y hacer html mantenimiento-producto @started(22-08-17 23:16) @done(22-08-18 02:37) @lasted(3h21m33s)
-  ✔ Modificar con table html pedidos-Administrador @started(22-08-18 02:39) @done(22-08-18 03:19) @lasted(40m51s)
-  ✔ Arreglar los enlaces de las imagenes @done(22-08-18 22:00)
-  ✔ Formulario para agregar Categoria @done(22-08-18 22:00)
-  ✔ Llamar a david por discord y asegurarse de subir su parte en backend @done(22-08-19 14:24)
-  ✔ Hacer html Botones administrador @started(22-08-20 14:17) @done(22-08-20 15:38) @lasted(1h21m19s)
-  ✔ Arreglar las rutas de cada archivo @started(22-08-20 20:43) @done(22-08-21 03:31) @lasted(6h48m2s)
-  ☐ Poner boton "volver" al | categoria | - | Pedido | 
-  ☐ Mejorar el Header
-  ☐ Mejorar el los padding de los formularios administrador
+  ✔ Crear y modificar html formulario. @done(22-08-17 23:13)
+  ✔ Crear y hacer html mantenimiento-producto. @started(22-08-17 23:16) @done(22-08-18 02:37) @lasted(3h21m33s)
+  ✔ Modificar con table html pedidos-Administrador. @started(22-08-18 02:39) @done(22-08-18 03:19) @lasted(40m51s)
+  ✔ Arreglar los enlaces de las imagenes. @done(22-08-18 22:00)
+  ✔ Formulario para agregar Categoria. @done(22-08-18 22:00)
+  ✔ Llamar a david por discord y asegurarse de subir su parte en backend. @done(22-08-19 14:24)
+  ✔ Hacer html Botones administrador. @started(22-08-20 14:17) @done(22-08-20 15:38) @lasted(1h21m19s)
+  ✔ Arreglar las rutas de cada archivo. @started(22-08-20 20:43) @done(22-08-21 03:31) @lasted(6h48m2s)
+  ✔ Poner boton "volver" al | categoria | - | Pedido |. @started(22-08-21 17:04) @done(22-08-21 17:26) @lasted(22m11s)
+  ✔ Mejorar el Header. @started(22-08-21 19:28) @done(22-08-21 21:12) @lasted(1h44m17s)
+  ✔ Mejorar el los padding de los formularios administrador. @done(22-08-21 17:36)
+  ☐ Mejorar el Carrito.
+  ✔ Mejorar catalogo otro Menu | Card. @started(22-08-21 23:36) @done(22-08-22 02:52) @lasted(3h16m53s)
+  ☐ Mejorar Index.
+  ✔ Mejorar Helper. @done(22-08-22 03:59)
+  ✔ colocar el footer. @done(22-08-22 03:51)
+  ✔ Hacer menu desplegable. @started(22-08-21 21:12) @done(22-08-21 22:44) @lasted(1h32m54s)

@@ -401,8 +401,8 @@ button img {
     margin: auto;
     overflow: hidden;
     position: relative;
-    top: 10px;
     background-color: black;
+    top: -1.5rem;
 
 }
 
@@ -411,8 +411,6 @@ button img {
     display: flex;
     padding: 0;
     width: 400%;
-
-
     animation: cambia 20s infinite alternate;
     animation-timing-function: ease;
 
