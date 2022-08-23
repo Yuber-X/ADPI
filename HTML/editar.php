@@ -35,7 +35,7 @@ while ($row = mysqli_fetch_assoc($resultados)) {
         <div class="container_form">
           <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1">Producto</span>
-            <input type="text" class="form-control" name="txtid" value="<?php echo $row["ProductoID"] ?>" disabled>
+            <input type="text" class="form-control" name="txtid" value="<?php echo $row["ProductoID"] ?>" >
           </div>
 
           <div class="input-group mb-3">
@@ -44,7 +44,7 @@ while ($row = mysqli_fetch_assoc($resultados)) {
 
             <div class="input-group mb-3">
           <span class="input-group-text" id="basic-addon2">Categoria ID</span>
-          <input type="number" name="txtnum" class="form-control" placeholder="Codigo de Tipo" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <input type="number" name="txtnum" class="form-control" placeholder="Codigo de Tipo" value="<?php echo $row["CategoriaID"]  ?>" aria-label="Recipient's username" aria-describedby="basic-addon2">
 
           </div>
           <div class="input-group mb-3">
