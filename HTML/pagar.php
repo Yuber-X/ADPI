@@ -18,6 +18,16 @@ if($_POST){
 
 }
 
+$sentencia = $conexion->prepare("INSERT INTO `tblventas` (`ID`, `ClaveTransaccion`, `PaypalDatos`, `Fecha`, `Correo`, `Total`, `estado`) VALUES (NULL, '', '', NOW(), :correo, :Total, 'pendiente');");
+ $sentencia->execute();
+
+
+
+$sentencia->bind_param(":correo", $Correo);
+$sentencia->bind_param(":Total", $total);
+$sentencia->execute();
+
+
 
 
 
@@ -26,20 +36,8 @@ if($_POST){
 
 echo "<h3>" .$total. "</h3>";
 
-
-
  }
 
 
 ?>
 
-
-<div class="jumbotron">
-    <h1 class="display-4"> ! Paso Final ! </h1>
-    <hr class="my-4">
-    <p class="lead"> Estas a punto de pagar con paypal la cantidad de:
-        <h4><?php echo number_format($total,2); ?> </h4>
-</p>
-   
-    <p>Gracias por usar nuestros servicios</p>
-</div>

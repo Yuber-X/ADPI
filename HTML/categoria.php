@@ -26,24 +26,22 @@ $sql = "SELECT * FROM categorias";
   <main>
     <section>
         <!--  FORMULARIO  -->
-        <form>
+        <form action="agregarcat.php" method="post">
             <div class="container_form">
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">Categoria</span>
-                    <input type="text" class="form-control" placeholder="Nombre de la Categoria" aria-label="Username" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" name="txtcat" placeholder="Nombre de la Categoria" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 
                 
                 <div class="input-group mb-3">
                   <span class="input-group-text" id="basic-addon2">Codigo</span>
-                    <input type="text" class="form-control" placeholder="Codigo" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" name="txtid" placeholder="Codigo" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 </div>
                 <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Crear</button>
+                    <input class="container__submit" type="submit" value="Crear">
                 </div>
-                <div class="col-13">
-                    <button type="submit" class="btn btn-primary">Modificar</button>
-                </div>
+            
             </div>
         </form>
     </section>
@@ -51,7 +49,7 @@ $sql = "SELECT * FROM categorias";
         <!--  DATA-GRID CATEGORIA  -->
         <div class="container_tabla_cat">
 
-        <?php $resultado = mysqli_query($conexion, $procesadores);
+        <?php $resultado = mysqli_query($conexion, $sql);
                while($row=mysqli_fetch_array($resultado)) { ?>                  
             
             
@@ -65,6 +63,7 @@ $sql = "SELECT * FROM categorias";
                         <th><strong>ID</strong></th>
                         <th><strong>Nombre</strong></th>
                         <th><strong>Producto ID</strong></th>
+                        <th><strong>Modificar</strong></th>
                         <th><strong>Eliminar</strong></th>
                     </tr>
                 </thead>
@@ -75,7 +74,8 @@ $sql = "SELECT * FROM categorias";
                     <td><strong> <?php echo $producto["ID"]; ?> </strong></td>
                     <td> <?php echo $producto["Nombres"]; ?></td>
                     <td> <?php echo $producto["IDproductos"]; ?></td>
-                    <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
+                    <td> <a href="editarcat.php? id=<?php echo $producto["ID"] ?>""> <button ><img src=" ./img/modificar.png"></button> </a> </td>
+                    <td> <a href="eliminarcat.php? id=<?php echo $producto["ID"] ?>""> <button ><img src="./img/basura-2.png" alt="basura"></button> </a></td>
                 </tr>
                 
 

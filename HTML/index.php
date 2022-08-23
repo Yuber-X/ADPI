@@ -159,8 +159,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
               <div class="overlay">
 
 
+              <a href="compra.php">
                 <p class="card-text-center"> <?php echo $producto["Nombre"]; ?> </p>
                 <p class="card-text-center"> $ <?php echo $producto["Precio"]; ?>
+                </a>
 
                 <form action="" method="post">
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-08-2022 a las 17:43:48
+-- Tiempo de generación: 23-08-2022 a las 21:06:19
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -59,12 +59,12 @@ CREATE TABLE `categorias` (
 
 INSERT INTO `categorias` (`ID`, `Nombres`, `IDproductos`) VALUES
 (1, 'Tarjetas Graficas', 1),
-(2, 'Procesador', 2),
+(2, 'Procesadores', 2),
 (3, 'Monitores', 3),
-(4, 'Case', 4),
+(4, 'Casess', 4),
 (5, 'Componentes', 5),
 (6, 'Perifericos', 6),
-(35, 'Componentes', 5);
+(37, 'Otros', 7);
 
 -- --------------------------------------------------------
 
@@ -115,14 +115,14 @@ CREATE TABLE `tblventas` (
   `Fecha` datetime NOT NULL,
   `Correo` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
   `Total` decimal(60,2) NOT NULL,
-  `status` varchar(200) COLLATE utf8_unicode_ci NOT NULL
+  `estado` varchar(200) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Volcado de datos para la tabla `tblventas`
 --
 
-INSERT INTO `tblventas` (`ID`, `ClaveTransaccion`, `PaypalDatos`, `Fecha`, `Correo`, `Total`, `status`) VALUES
+INSERT INTO `tblventas` (`ID`, `ClaveTransaccion`, `PaypalDatos`, `Fecha`, `Correo`, `Total`, `estado`) VALUES
 (3, '1234567890', '', '2022-08-19 18:42:39', 'sladeswain@gmail.com', '700.00', 'pendiente'),
 (4, '1234567890', '', '2022-08-19 18:42:39', 'sladeswain@gmail.com', '700.00', 'pendiente');
 
@@ -170,7 +170,7 @@ ALTER TABLE `administador`
 -- AUTO_INCREMENT de la tabla `categorias`
 --
 ALTER TABLE `categorias`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT de la tabla `productos`
