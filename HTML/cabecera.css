@@ -1,0 +1,106 @@
+/*COLORES QUE SE USARAN*/
+:root {
+    ---principal: #CE43C0;
+    ---principal56: #CE43C0bd;
+    ---secundario: #4348CE;
+    ---blanco: #FFFFFF;
+    ---rojo: #FF0000;
+    ---rojo67: #FF000067;
+    ---rojo35: #FF000035;
+    ---negro: #000000;
+    ---negro56: #000000bd;
+    ---negro33: #00000033;
+    }
+    
+    
+    /*FUENTES QUE SE USARAN*/
+    
+    
+    @font-face {
+        font-family: agency;
+        src: url(./Fuentes/agency_fb.ttf);
+    }
+    @font-face {
+        font-family: time;
+        src: url(./Fuentes/times.ttf);
+    }
+    @font-face {
+        font-family: time_bold;
+        src: url(./Fuentes/timesbold.ttf);
+    }
+    @font-face {
+        font-family: giorgia;
+        src: url(./Fuentes/georgia.ttf);
+    }
+    @font-face {
+        font-family: agency_bold;
+        src: url(./Fuentes/agency_fb_bold.ttf);
+    }
+    
+
+    /*------------------------TODO--------------------------*/
+    *{
+        font-family: agency_bold;
+    }
+
+
+    /*-----------------------HEADER--------------------------*/
+
+
+    nav .titulo{
+        font-size: 5rem;
+        padding: 0rem 0rem 0rem 2rem;
+        color: var(---blanco);
+        transition: 0.3s;
+    }
+    nav .titulo:hover{
+        color: var(---rojo);
+    }
+
+    nav .posicionar{
+        font-size: 1rem;
+        padding-left: 31%;
+    }
+    .posicionar a{
+        margin: 0rem 2rem 0rem 2rem;
+        color: var(---blanco);
+        transition: 0.3s;
+    }
+    .posicionar a:hover{
+        color: var(---principal);
+        font-size: 1.5rem;
+    }
+    .fondo_header nav{
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 10px;
+        background: url(./img/fondo-conexion-red.jpg);
+        background: cover;
+        background-position: center center;
+        background-size: cover;
+        height: 6.5rem;
+        position: relative;
+    }
+    /*----------------------------------------------------*/
+    /*                       MENU                         */
+.menu_nav{
+    justify-content: center;
+}
+
+.menu_nav a{
+    margin: 0rem 2rem 0rem 2rem;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+.menu_nav a:hover{
+    color: var(---principal);
+}
+.menu_nav li{
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.menu_nav li:hover{
+    background-color: var(---rojo67);
+}
+
+
