@@ -4,6 +4,11 @@ include("config.php");
 include("cn.php");
 include 'carrito.php';
 include("cabecera.php");
+
+
+$sql = "SELECT * FROM categorias";
+
+
 ?>
   <title>ADPI ADMINISTRADOR</title>
   <link rel="preload" href="normalize.css" as="style">
@@ -45,21 +50,38 @@ include("cabecera.php");
     <section>
         <!--  DATA-GRID CATEGORIA  -->
         <div class="container_tabla_cat">
+
+        <?php $resultado = mysqli_query($conexion, $procesadores);
+               while($row=mysqli_fetch_array($resultado)) { ?>                  
+            
+            
+          
+
+
+
             <table class="table table-success table-striped">
                 <thead>
                     <tr>
                         <th><strong>ID</strong></th>
-                        <th><strong>Codigo</strong></th>
-                        <th><strong>Categoria</strong></th>
+                        <th><strong>Nombre</strong></th>
+                        <th><strong>Producto ID</strong></th>
                         <th><strong>Eliminar</strong></th>
                     </tr>
                 </thead>
+                <tbody>
+                <?php foreach($resultado as $producto){ ?>
+                </tbody>
                 <tr>
-                    <td><strong>1</strong></td>
-                    <td>10</td>
-                    <td>Case</td>
+                    <td><strong> <?php echo $producto["ID"]; ?> </strong></td>
+                    <td> <?php echo $producto["Nombres"]; ?></td>
+                    <td> <?php echo $producto["IDproductos"]; ?></td>
                     <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr>
+                
+
+                <?php } ?>
+        <?php  } ?>
+                <!--
                 <tr>
                     <td><strong>2</strong></td>
                     <td>20</td>
@@ -120,6 +142,7 @@ include("cabecera.php");
                     <td>Perifericos</td>
                     <td><button href="#"><img src="./img/basura-2.png" alt="basura"></button></td>
                 </tr> 
+                -->
             </table>
         </div>
     </section>
