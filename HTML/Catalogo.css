@@ -37,8 +37,6 @@
     @font-face {
         font-family: agency_bold;
         src: url(./Fuentes/agency_fb_bold.ttf);
-
-        src: url( /CSS/Fuentes/agency_fb.ttf);
     }
     @font-face {
         font-family: time;
@@ -59,14 +57,6 @@
     }
     
     
-    /*TODO EL HTML*/
-    
-    html{
-        font-family: agency;
-        background-image: url(./img/Fondo\ PNG\ 1.png);
-        background-repeat: repeat;
-       
-    }
     
    
     

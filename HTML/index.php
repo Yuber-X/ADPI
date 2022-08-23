@@ -158,10 +158,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
             <div class="card-body-center">
               <div class="overlay">
 
-
+              <a href="compra.php">
                 <p class="card-text-center"> <?php echo $producto["Nombre"]; ?> </p>
                 <p class="card-text-center"> $ <?php echo $producto["Precio"]; ?>
-
+              </a>
                 <form action="" method="post">
 
                   <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -169,7 +169,7 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                   <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt($producto['Precio'], COD, KEY); ?>">
                   <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt(1, COD, KEY); ?>">
 
-                  <button class="btn btn-primary" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
+                  <button class="btn btn-primary btn_agregar" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
 
 
                 </form>
@@ -205,10 +205,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
               <div class="overlay">
 
 
-
+              <a href="compra.php">
                 <h5 class="card-title"> $ <?php echo $producto["Precio"]; ?> </h5>
                 <p class="card-text"> <?php echo $producto["Nombre"]; ?> </p>
-
+              </a>
                 <form action="" method="post">
 
                   <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -216,7 +216,7 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                   <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt($producto['Precio'], COD, KEY); ?>">
                   <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt(1, COD, KEY); ?>">
 
-                  <button class="btn btn-primary" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
+                  <button class="btn btn-primary btn_agregar" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
 
 
                 </form>
@@ -250,10 +250,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
               <div class="overlay">
 
 
-
-                <h5 class="card-title"> $ <?php echo $producto["Precio"]; ?> </h5>
+              <a href="compra.php">
+                <p class="card-title"> $ <?php echo $producto["Precio"]; ?> </p>
                 <p class="card-text"> <?php echo $producto["Nombre"]; ?> </p>
-
+              </a>
                 <form action="" method="post">
 
                   <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -261,7 +261,7 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                   <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt($producto['Precio'], COD, KEY); ?>">
                   <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt(1, COD, KEY); ?>">
 
-                  <button class="btn btn-primary" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
+                  <button class="btn btn-primary btn_agregar" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
 
 
                 </form>
@@ -298,10 +298,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
               <div class="overlay">
 
 
-
+              <a href="compra.php">
                 <h5 class="card-title"> $ <?php echo $producto["Precio"]; ?> </h5>
                 <p class="card-text"> <?php echo $producto["Nombre"]; ?> </p>
-
+              </a>
                 <form action="" method="post">
 
                   <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -343,10 +343,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
               <div class="overlay">
 
 
-
+              <a href="compra.php">
                 <h5 class="card-title"> $ <?php echo $producto["Precio"]; ?> </h5>
                 <p class="card-text"> <?php echo $producto["Nombre"]; ?> </p>
-
+              </a>
                 <form action="" method="post">
 
                   <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -388,10 +388,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
               <div class="overlay">
 
 
-
+              <a href="compra.php">
                 <h5 class="card-title"> $ <?php echo $producto["Precio"]; ?> </h5>
                 <p class="card-text"> <?php echo $producto["Nombre"]; ?> </p>
-
+              </a>
                 <form action="" method="post">
 
                   <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -480,10 +480,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                   <div class="overlay">
                     <span> <?php echo $producto["Nombre"]; ?></span>
 
-
+                    <a href="compra.php">
                     <h5 class="card-title"> $ <?php echo $producto["Precio"]; ?> </h5>
                     <p class="card-text"> <?php echo $producto["Nombre"]; ?> </p>
-
+                    </a>
                     <form action="" method="post">
 
                       <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -491,7 +491,7 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                       <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt($producto['Precio'], COD, KEY); ?>">
                       <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt(1, COD, KEY); ?>">
 
-                      <button class="btn btn-primary" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
+                      <button class="btn btn-primary btn_agregar" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
 
 
                     </form>
@@ -524,10 +524,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                   <div class="overlay">
                     <span> <?php echo $producto["Nombre"]; ?></span>
 
-
+                    <a href="compra.php">
                     <h5 class="card-title"> $ <?php echo $producto["Precio"]; ?> </h5>
                     <p class="card-text"> <?php echo $producto["Nombre"]; ?> </p>
-
+                    </a>
                     <form action="" method="post">
 
                       <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -535,7 +535,7 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                       <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt($producto['Precio'], COD, KEY); ?>">
                       <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt(1, COD, KEY); ?>">
 
-                      <button class="btn btn-primary" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
+                      <button class="btn btn-primary btn_agregar" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
 
 
                     </form>
@@ -569,10 +569,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                   <div class="overlay">
                     <span> <?php echo $producto["Nombre"]; ?></span>
 
-
+                    <a href="compra.php">
                     <h5 class="card-title"> $ <?php echo $producto["Precio"]; ?> </h5>
                     <p class="card-text"> <?php echo $producto["Nombre"]; ?> </p>
-
+                    </a>
                     <form action="" method="post">
 
                       <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -580,7 +580,7 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                       <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt($producto['Precio'], COD, KEY); ?>">
                       <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt(1, COD, KEY); ?>">
 
-                      <button class="btn btn-primary" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
+                      <button class="btn btn-primary btn_agregar" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
 
 
                     </form>
@@ -614,10 +614,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                   <div class="overlay">
                     <span> <?php echo $producto["Nombre"]; ?></span>
 
-
+                    <a href="compra.php">
                     <h5 class="card-title"> $ <?php echo $producto["Precio"]; ?> </h5>
                     <p class="card-text"> <?php echo $producto["Nombre"]; ?> </p>
-
+                    </a>
                     <form action="" method="post">
 
                       <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -625,7 +625,7 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                       <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt($producto['Precio'], COD, KEY); ?>">
                       <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt(1, COD, KEY); ?>">
 
-                      <button class="btn btn-primary" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
+                      <button class="btn btn-primary btn_agregar" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
 
 
                     </form>
@@ -659,10 +659,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                   <div class="overlay">
                     <span> <?php echo $producto["Nombre"]; ?></span>
 
-
+                    <a href="compra.php">
                     <h5 class="card-title"> $ <?php echo $producto["Precio"]; ?> </h5>
                     <p class="card-text"> <?php echo $producto["Nombre"]; ?> </p>
-
+                    </a>
                     <form action="" method="post">
 
                       <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -670,7 +670,7 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                       <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt($producto['Precio'], COD, KEY); ?>">
                       <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt(1, COD, KEY); ?>">
 
-                      <button class="btn btn-primary" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
+                      <button class="btn btn-primary btn_agregar" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
 
 
                     </form>
@@ -704,10 +704,10 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                   <div class="overlay">
                     <span> <?php echo $producto["Nombre"]; ?></span>
 
-
+                    <a href="compra.php">
                     <h5 class="card-title"> $ <?php echo $producto["Precio"]; ?> </h5>
                     <p class="card-text"> <?php echo $producto["Nombre"]; ?> </p>
-
+                    </a>
                     <form action="" method="post">
 
                       <input type="hidden" name="id" id="id" value="<?php echo openssl_encrypt($producto['ProductoID'], COD, KEY); ?>">
@@ -715,7 +715,7 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
                       <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt($producto['Precio'], COD, KEY); ?>">
                       <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt(1, COD, KEY); ?>">
 
-                      <button class="btn btn-primary" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
+                      <button class="btn btn-primary btn_agregar" name="btnAccion" value="Agregar" type="submit"> añadir al carro </button>
 
 
                     </form>
@@ -746,146 +746,4 @@ $p12 = "SELECT * FROM productos WHERE ProductoID = 17 ";
  include("pie.php");
  ?>
   </body>
-<<<<<<< HEAD
-=======
-
-  <footer class="footer-container">
-    <div class="footer-container-caja-top">
-      <div class="footer-container-caja-top__soporte">
-        <h3>Soporte</h3>
-        <div>
-          <a href="#">Contacto</a>
-          <a href="#">Cuenta</a>
-          <a href="#">Terminos  y condiciones</a>
-          <a href="#">Preguntas Frecuentes</a>
-        </div>
-      </div>
-
-
-      <div class="footer-container-caja-top__adm">
-        <h3>Administrador</h3>
-        <div>
-          <a href="#">Ingresar</a>
-        </div>
-
-      </div>
-
-      <div class="footer-container-caja-top__redesSociales">
-
-
-      </div>
-
-
-    </div>
-
-    <div class="footer-container-caja-buttoom">
-
-    </div>
-
-  </footer>
-
-  <!-- <footer> -->
-
-
-
-
-  <!-- 
-    <table cellspacing="15px" class="tablazz">
-
-      <tr>
-        <td>
-          <h2> Soporte </h2>
-        </td>
-        <td>
-          <h2> Perfil </h2>
-        </td>
-
-        <td> <img src="./img/intento de logo.png" class="imaing"> </td>
-
-
-      </tr>
-
-      <tr>
-        <td class="tabloide">
-          <a href="#" class="aeaa"> Contacto </a>
-        </td>
-        <td>
-          <a href="#" class="aeaa"> Cuenta </a>
-        </td>
-
-      <tr>
-        <td>
-          <a href="#" class="aeaa"> Nosotros </a>
-        </td>
-        <td>
-          <a href="#" class="aeaa"> Carrito </a>
-        </td>
-
-        <td class="posi" rowspan="2">
-          <a href="#" class="aeaa"> Siguenos: </a>
-        </td>
-
-
-
-
-      </tr>
-      <tr>
-        <td>
-          <a href="#" class="aeaa"> Terminos y Condiciones </a>
-        </td>
-        <td>
-          <a href="#" class="aeaa"> Comprar </a>
-        </td>
-      <tr>
-        <td>
-          <a href="#" class="aeaa"> Preguntas Frecuentes </a>
-        </td>
-        <td>
-          <a href="#" class="aeaa"> Lista de Deseos </a>
-        </td>
-
-
-
-
-        <td colspan="1">
-
-
-          <img src="./img/pngegg (-7.png" class="joda">
-
-
-
-
-
-
-          <img src="./img/pngegg (-8.png" class="joda">
-
-
-
-
-
-
-          <img src="./img/pngegg (-9.png" class="joda">
-
-        </td>
-
-      </tr>
-    </table>
-
-  </footer>
-
-  <footer class="Mfooter">
-    <div>
-
-      <td> <img src="./img/letra ADPI.png" HSPACE="27px" class="imaing3"> </td>
-      <td> <img src="./img/fon123.png" HSPACE="308px" class="imaing2"> </td>
-      <td> <img src="./img/logo-mastercard-cabecera-fb.png" class="imaing4"> </td>
-      <td> <img src="./img/paypal.png" " class=" imaing5"> </td>
-      <td> <img src="./img/Former_Visa.png" class="imaing6"> </td>
-
-
-    </div>
-
-  </footer> -->
-
->>>>>>> 81f0e0258be17279f37c3fe39b5ffccc4fd44993
   </html>
